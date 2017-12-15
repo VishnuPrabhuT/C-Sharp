@@ -1,0 +1,9 @@
+C:\Users\Vishnu\source\repos\AADT\AADT\bin\x86\Debug\AADT.exe.config
+C:\Users\Vishnu\source\repos\AADT\AADT\bin\x86\Debug\AADT.exe
+C:\Users\Vishnu\source\repos\AADT\AADT\bin\x86\Debug\AADT.pdb
+C:\Users\Vishnu\source\repos\AADT\AADT\bin\x86\Debug\LibSVMsharp.dll
+C:\Users\Vishnu\source\repos\AADT\AADT\bin\x86\Debug\LibSVMsharp.pdb
+C:\Users\Vishnu\source\repos\AADT\AADT\obj\x86\Debug\AADT.csproj.CoreCompileInputs.cache
+C:\Users\Vishnu\source\repos\AADT\AADT\obj\x86\Debug\AADT.exe
+C:\Users\Vishnu\source\repos\AADT\AADT\obj\x86\Debug\AADT.pdb
+C:\Users\Vishnu\source\repos\AADT\AADT\obj\x86\Debug\AADT.csprojResolveAssemblyReference.cache
