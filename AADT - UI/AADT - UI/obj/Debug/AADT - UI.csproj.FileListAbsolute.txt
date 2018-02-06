@@ -1,0 +1,10 @@
+C:\Users\Vishnu\source\repos\AADT - UI\AADT - UI\obj\Debug\AADT - UI.csprojResolveAssemblyReference.cache
+C:\Users\Vishnu\source\repos\AADT - UI\AADT - UI\obj\Debug\AADT___UI.Properties.Resources.resources
+C:\Users\Vishnu\source\repos\AADT - UI\AADT - UI\obj\Debug\AADT - UI.csproj.GenerateResource.Cache
+C:\Users\Vishnu\source\repos\AADT - UI\AADT - UI\obj\Debug\AADT - UI.csproj.CoreCompileInputs.cache
+C:\Users\Vishnu\source\repos\AADT - UI\AADT - UI\bin\Debug\AADT - UI.exe.config
+C:\Users\Vishnu\source\repos\AADT - UI\AADT - UI\bin\Debug\AADT - UI.exe
+C:\Users\Vishnu\source\repos\AADT - UI\AADT - UI\bin\Debug\AADT - UI.pdb
+C:\Users\Vishnu\source\repos\AADT - UI\AADT - UI\obj\Debug\AADT - UI.exe
+C:\Users\Vishnu\source\repos\AADT - UI\AADT - UI\obj\Debug\AADT - UI.pdb
+C:\Users\Vishnu\source\repos\AADT - UI\AADT - UI\obj\Debug\AADT___UI.Form1.resources

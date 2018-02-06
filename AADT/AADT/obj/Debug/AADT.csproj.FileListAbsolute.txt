@@ -7,3 +7,14 @@ C:\Users\Vishnu\source\repos\AADT\AADT\obj\Debug\AADT.csprojResolveAssemblyRefer
 C:\Users\Vishnu\source\repos\AADT\AADT\obj\Debug\AADT.csproj.CoreCompileInputs.cache
 C:\Users\Vishnu\source\repos\AADT\AADT\obj\Debug\AADT.exe
 C:\Users\Vishnu\source\repos\AADT\AADT\obj\Debug\AADT.pdb
+C:\Users\Vishnu\source\repos\AADT\AADT\obj\Debug\AADT.AADTForm.resources
+C:\Users\Vishnu\source\repos\AADT\AADT\obj\Debug\AADT.csproj.GenerateResource.Cache
+C:\Users\Vishnu\source\repos\AADT\AADT\bin\Debug\IKVM.OpenJDK.Charsets.dll
+C:\Users\Vishnu\source\repos\AADT\AADT\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\Vishnu\source\repos\AADT\AADT\bin\Debug\IKVM.OpenJDK.Security.dll
+C:\Users\Vishnu\source\repos\AADT\AADT\bin\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\Vishnu\source\repos\AADT\AADT\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\Vishnu\source\repos\AADT\AADT\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\Vishnu\source\repos\AADT\AADT\bin\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Users\Vishnu\source\repos\AADT\AADT\bin\Debug\IKVM.Runtime.dll
+C:\Users\Vishnu\source\repos\AADT\AADT\bin\Debug\LIBSVM.NET.dll
