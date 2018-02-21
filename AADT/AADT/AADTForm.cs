@@ -34,6 +34,10 @@ namespace AADT
             Application.Exit();
         }
 
+        private void dataSelectUpDown_ValueChanged(object sender, EventArgs e)
+        {
+            dataSelected = Convert.ToInt32(dataSelectUpDown.Value);
+        }
     }
 }
 

@@ -85,7 +85,7 @@ namespace AADT
                     foreach (double i in factorList)
                     {
                         double factor = Math.Round(i / sumVal, 5);
-                        resultString += factor.ToString() + "-";
+                        resultString += factor.ToString("0.####") + "-";
                     }
 
                     resultStrings.Add(resultString + "#" + dayVolumeCount.ToString());
@@ -137,13 +137,13 @@ namespace AADT
 
             TextWriter writer = File.AppendText(path + @"\OP\Result.txt");
             TextWriter aadtWriter = File.AppendText(path + @"\OP\AADTVal.txt");
-            aadtWriter.WriteLine(currentATR + " - " + totalSum / count);
+            aadtWriter.WriteLine(currentATR + " - " + Math.Round(totalSum / count));
             if (count >= 180)
             {
                 int decr = 1;
                 foreach (string s in writeList)
                 {
-                    double AADTFactor = Math.Round(Convert.ToInt32(aadtVal[currentATR.ToString() + "->" + (decr++).ToString()]) / (totalSum / count), 3);
+                    double AADTFactor = Math.Round(Convert.ToInt32(aadtVal[currentATR.ToString() + "->" + (decr++).ToString()]) / Math.Round(totalSum / count), 3);
                     writer.WriteLine(s.Remove(s.IndexOf('#')) + AADTFactor.ToString());
                 }
             }
@@ -163,6 +163,7 @@ namespace AADT
         [STAThread]
         static void Main(string[] args)
         {
+            string[] todelete = { "Train", "Test", "Result", "Output", "AADT_model", "AADTVal" };
             //UI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
@@ -172,13 +173,17 @@ namespace AADT
             Application.Run(aadt);
             string n = aadt.name;
             path = aadt.path;
+            foreach (string s in todelete)
+            {
+                File.Delete(path+@"\OP\"+s+".txt");
+            }
             int dataSelected = aadt.dataSelected;
 
 
             int[] interstate = { 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 42, 43, 46, 49, 50, 51, 52, 53, 54, 55, 56, 69, 70, 71, 72, 77, 80, 81, 84, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 106, 108, 109, 110, 111, 112, 113, 114, 115, 116, 118, 120, 121, 123, 124, 125, 126, 127, 128, 132, 137, 138, 139, 142, 145, 146, 150, 157 };
             int[] rural_arterial = { 1, 2, 4, 5, 9, 11, 36, 37, 38, 44, 48, 57, 58, 60, 61, 62, 63, 64, 67, 68, 74, 76, 82, 83, 105, 107, 117, 119, 122, 131, 133, 134, 135, 136, 140, 141, 149 };
             int[] urban_arterial = { 3, 6, 7, 8, 12, 13, 18, 30, 35, 40, 45, 47, 59, 66, 85, 104, 129, 130, 143, 144, 147, 148 };
-            int[] arterial = { 1, 9, 11, 12, 13, 18, 30, 35, 36, 37, 38, 40, 44, 45, 47, 48, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 74, 76, 82, 83, 85, 104, 105, 107, 117, 119, 122, 129, 130, 131, 133, 134, 135, 136, 140, 141, 143, 144, 147, 148, 149 };
+            int[] arterial = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 18, 30, 35, 36, 37, 38, 40, 44, 45, 47, 48, 57, 58, 59, 60, 61, 62, 63, 64, 66, 67, 68, 74, 76, 82, 83, 85, 104, 105, 107, 117, 119, 122, 129, 130, 131, 133, 134, 135, 136, 140, 141, 143, 144, 147, 148, 149 };
             int[] rural_collector = { 10, 17, 39, 65, 73, 75, 151, 158, 166 };
             int[] urban_collector = { 41, 152, 155, 159, 160, 162 };
             int[] local = { 153, 154, 156, 161, 163, 164, 165 };
@@ -199,7 +204,7 @@ namespace AADT
                     trainingSet = arterial;
                     break;
                 case 3:
-                    trainingSet = local;
+                    trainingSet = collector;
                     break;
                 default:
                     trainingSet = allATR;
@@ -214,6 +219,9 @@ namespace AADT
             string[] ipArray = ip.Split('\n');
             string currentATR = "";
             int count = 3;
+            int mytot = (ipArray.Length - 2) / 3;
+            int mycount = 0;
+            int[] vol = new int[mytot];
             string resultString = "";
             StreamWriter testWriter = new StreamWriter(path + @"\OP\Test.txt");
             while (count < ipArray.Length)
@@ -239,6 +247,8 @@ namespace AADT
 
                     count++;
                     int dayVolumeSum = ipArray[count - 1].Split(' ').Select(int.Parse).ToArray().Sum();
+                    vol[mycount] = dayVolumeSum;
+                    mycount++;
                     foreach (string s in ipArray[count - 1].Split(' '))
                     {
                         resultString += "-" + Math.Round(Convert.ToDecimal(s) / dayVolumeSum, 5);
@@ -348,7 +358,7 @@ namespace AADT
             testData = testData.Normalize(SVMNormType.L1);
 
             SVMParameter parameter = new SVMParameter();
-            parameter.Type = SVMType.NU_SVR;
+            parameter.Type = SVMType.EPSILON_SVR;
             parameter.Kernel = SVMKernelType.RBF;
             parameter.C = 1;
             parameter.Gamma = 1;
@@ -360,9 +370,22 @@ namespace AADT
             double[] testResults = testData.Predict(model);
             StreamWriter outputWriter = new StreamWriter(path + @"\OP\Output.txt");
 
+            StreamReader streamReader2 = new StreamReader(path + @"\OP\allAADT.txt");
+            List<string> allAADT = new List<string>();
+            string line2 = streamReader2.ReadLine();
+            while (line2 != null)
+            {
+                allAADT.Add(line2.Substring(0));
+                //Console.WriteLine(line);   
+                line2 = streamReader2.ReadLine();
+            }
+            streamReader2.Close();
+
+            outputWriter.WriteLine("ATR Number" + " - " + "Predicted AADT" + " - " + "Actual AADT" + " - " + "Error(%)");
             for (int i = 0; i < testData.Length; i++)
             {
-                outputWriter.WriteLine(atrs[i] + " - " + testResults[i]);
+                //aadtarray[i] = allAADT[Convert.ToInt32(atrs[i])-1];
+                outputWriter.WriteLine(atrs[i] + " - " + Math.Round(vol[i]/testResults[i]) + " - " + Convert.ToInt32(allAADT[Convert.ToInt32(atrs[i])-1]) + " - " + Math.Round(Math.Abs((Math.Round(vol[i] / testResults[i])) - Convert.ToInt32(allAADT[Convert.ToInt32(atrs[i]) - 1])) * 100 / Convert.ToInt32(allAADT[Convert.ToInt32(atrs[i]) - 1])));
             }
             outputWriter.Flush();
             outputWriter.Close();
