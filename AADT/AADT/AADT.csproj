@@ -167,8 +167,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Flat Folder icon.png" />
     <Content Include="libsvm.dll" />
     <Content Include="PresentationFramework.dll" />
+    <None Include="Resources\Flat Folder icon.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AADTForm.resx">
