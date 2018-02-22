@@ -8,21 +8,21 @@ namespace AADT
         public AADTForm()
         {
             InitializeComponent();
-            name = this.nameLabel.Text;
-            dataSelected = Convert.ToInt32(this.dataSelectUpDown.Value);
+            //name = this.nameLabel.Text;
+            dataSelected = this.roadWayComboBox.Items.ToString();
         }
         public string name
         {
             get;
             set;
         }
-        public string path
+        public static string path
         {
             get;
             set;
         }
 
-        public int dataSelected
+        public string dataSelected
         {
             get;
             set;
@@ -31,13 +31,28 @@ namespace AADT
         private void predictButton_Click(object sender, EventArgs e)
         {
             path = pathTextBox.Text;
-            Application.Exit();
+            Application.OpenForms["AADTForm"].Close();
+            //Application.Exit();
         }
 
-        private void dataSelectUpDown_ValueChanged(object sender, EventArgs e)
+        private void browseButton_Click(object sender, EventArgs e)
         {
-            dataSelected = Convert.ToInt32(dataSelectUpDown.Value);
+            FolderBrowserDialog folderDlg = new FolderBrowserDialog();
+            folderDlg.ShowNewFolderButton = true;
+            // Show the FolderBrowserDialog.
+            DialogResult result = folderDlg.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                pathTextBox.Text = folderDlg.SelectedPath;
+                Environment.SpecialFolder root = folderDlg.RootFolder;
+            }
         }
+
+        private void roadWayComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            dataSelected = roadWayComboBox.SelectedItem.ToString();
+        }
+
     }
 }
 

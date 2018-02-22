@@ -38,3 +38,5 @@ C:\Users\mdzadik\Dropbox\My_Research\AADT\Software\AADT\AADT\obj\x86\Release\AAD
 C:\Users\mdzadik\Dropbox\My_Research\AADT\Software\AADT\AADT\obj\x86\Release\AADT.csproj.CoreCompileInputs.cache
 C:\Users\mdzadik\Dropbox\My_Research\AADT\Software\AADT\AADT\obj\x86\Release\AADT.exe
 C:\Users\mdzadik\Dropbox\My_Research\AADT\Software\AADT\AADT\obj\x86\Release\AADT.pdb
+C:\Users\Vishnu\source\repos\AADT\AADT\obj\x86\Release\AADT.DoneForm.resources
+C:\Users\Vishnu\source\repos\AADT\AADT\obj\x86\Release\AADT.Properties.Resources.resources

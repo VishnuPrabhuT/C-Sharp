@@ -28,115 +28,110 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AADTForm));
             this.selectDataLabel = new System.Windows.Forms.Label();
-            this.dataSelectUpDown = new System.Windows.Forms.NumericUpDown();
             this.predictButton = new System.Windows.Forms.Button();
             this.pathTextBox = new System.Windows.Forms.TextBox();
             this.pathLabel = new System.Windows.Forms.Label();
-            this.nameLabel = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataSelectUpDown)).BeginInit();
+            this.browseButton = new System.Windows.Forms.Button();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.roadWayComboBox = new System.Windows.Forms.ComboBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // selectDataLabel
             // 
             this.selectDataLabel.AutoSize = true;
             this.selectDataLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.selectDataLabel.Location = new System.Drawing.Point(48, 52);
-            this.selectDataLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.selectDataLabel.Location = new System.Drawing.Point(64, 64);
             this.selectDataLabel.Name = "selectDataLabel";
-            this.selectDataLabel.Size = new System.Drawing.Size(398, 25);
+            this.selectDataLabel.Size = new System.Drawing.Size(500, 31);
             this.selectDataLabel.TabIndex = 1;
             this.selectDataLabel.Text = "Select Roadway Functional Class Model";
-            // 
-            // dataSelectUpDown
-            // 
-            this.dataSelectUpDown.AllowDrop = true;
-            this.dataSelectUpDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataSelectUpDown.Location = new System.Drawing.Point(160, 95);
-            this.dataSelectUpDown.Margin = new System.Windows.Forms.Padding(2);
-            this.dataSelectUpDown.Maximum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
-            this.dataSelectUpDown.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.dataSelectUpDown.Name = "dataSelectUpDown";
-            this.dataSelectUpDown.Size = new System.Drawing.Size(160, 30);
-            this.dataSelectUpDown.TabIndex = 2;
-            this.dataSelectUpDown.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.dataSelectUpDown.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.dataSelectUpDown.ValueChanged += new System.EventHandler(this.dataSelectUpDown_ValueChanged);
             // 
             // predictButton
             // 
             this.predictButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.predictButton.Location = new System.Drawing.Point(160, 300);
-            this.predictButton.Margin = new System.Windows.Forms.Padding(2);
+            this.predictButton.Location = new System.Drawing.Point(205, 400);
+            this.predictButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.predictButton.Name = "predictButton";
-            this.predictButton.Size = new System.Drawing.Size(160, 44);
+            this.predictButton.Size = new System.Drawing.Size(203, 54);
             this.predictButton.TabIndex = 5;
-            this.predictButton.Text = "Predict";
-            this.predictButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.predictButton.Text = "Predict AADT";
             this.predictButton.UseVisualStyleBackColor = true;
             this.predictButton.Click += new System.EventHandler(this.predictButton_Click);
             // 
             // pathTextBox
             // 
             this.pathTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pathTextBox.Location = new System.Drawing.Point(53, 216);
-            this.pathTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.pathTextBox.Location = new System.Drawing.Point(55, 263);
+            this.pathTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pathTextBox.Name = "pathTextBox";
-            this.pathTextBox.Size = new System.Drawing.Size(393, 26);
+            this.pathTextBox.Size = new System.Drawing.Size(523, 30);
             this.pathTextBox.TabIndex = 3;
             // 
             // pathLabel
             // 
             this.pathLabel.AutoSize = true;
             this.pathLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pathLabel.Location = new System.Drawing.Point(180, 180);
-            this.pathLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.pathLabel.Location = new System.Drawing.Point(231, 201);
             this.pathLabel.Name = "pathLabel";
-            this.pathLabel.Size = new System.Drawing.Size(135, 25);
+            this.pathLabel.Size = new System.Drawing.Size(168, 31);
             this.pathLabel.TabIndex = 4;
             this.pathLabel.Text = "File Location";
             // 
-            // nameLabel
+            // browseButton
             // 
-            this.nameLabel.AutoSize = true;
-            this.nameLabel.BackColor = System.Drawing.SystemColors.Control;
-            this.nameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameLabel.Location = new System.Drawing.Point(243, 310);
-            this.nameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(68, 25);
-            this.nameLabel.TabIndex = 0;
-            this.nameLabel.Text = "AADT";
-            this.nameLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.browseButton.Location = new System.Drawing.Point(253, 326);
+            this.browseButton.Name = "browseButton";
+            this.browseButton.Size = new System.Drawing.Size(98, 35);
+            this.browseButton.TabIndex = 6;
+            this.browseButton.Text = "Browse";
+            this.browseButton.UseVisualStyleBackColor = true;
+            this.browseButton.Click += new System.EventHandler(this.browseButton_Click);
+            // 
+            // roadWayComboBox
+            // 
+            this.roadWayComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.roadWayComboBox.FormattingEnabled = true;
+            this.roadWayComboBox.Items.AddRange(new object[] {
+            "Interstate",
+            "Arterial",
+            "Collector"});
+            this.roadWayComboBox.Location = new System.Drawing.Point(205, 135);
+            this.roadWayComboBox.Name = "roadWayComboBox";
+            this.roadWayComboBox.Size = new System.Drawing.Size(213, 33);
+            this.roadWayComboBox.TabIndex = 8;
+            this.roadWayComboBox.SelectedIndexChanged += new System.EventHandler(this.roadWayComboBox_SelectedIndexChanged);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(169, 314);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(51, 56);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
             // 
             // AADTForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(481, 395);
-            this.Controls.Add(this.nameLabel);
+            this.ClientSize = new System.Drawing.Size(641, 486);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.roadWayComboBox);
+            this.Controls.Add(this.browseButton);
             this.Controls.Add(this.pathLabel);
             this.Controls.Add(this.pathTextBox);
             this.Controls.Add(this.predictButton);
-            this.Controls.Add(this.dataSelectUpDown);
             this.Controls.Add(this.selectDataLabel);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "AADTForm";
             this.Text = "AADT";
             this.TopMost = true;
-            ((System.ComponentModel.ISupportInitialize)(this.dataSelectUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,10 +139,12 @@
 
         #endregion
         private System.Windows.Forms.Label selectDataLabel;
-        private System.Windows.Forms.NumericUpDown dataSelectUpDown;
         private System.Windows.Forms.Button predictButton;
         private System.Windows.Forms.TextBox pathTextBox;
         private System.Windows.Forms.Label pathLabel;
-        private System.Windows.Forms.Label nameLabel;
+        private System.Windows.Forms.Button browseButton;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
+        private System.Windows.Forms.ComboBox roadWayComboBox;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

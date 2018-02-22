@@ -84,8 +84,8 @@ namespace AADT
                 {
                     foreach (double i in factorList)
                     {
-                        double factor = Math.Round(i / sumVal, 5);
-                        resultString += factor.ToString("0.####") + "-";
+                        double factor = Math.Round(i / sumVal, 3);
+                        resultString += factor.ToString("0.###") + "-";
                     }
 
                     resultStrings.Add(resultString + "#" + dayVolumeCount.ToString());
@@ -135,8 +135,8 @@ namespace AADT
                 }
             }
 
-            TextWriter writer = File.AppendText(path + @"\OP\Result.txt");
-            TextWriter aadtWriter = File.AppendText(path + @"\OP\AADTVal.txt");
+            TextWriter writer = File.AppendText(path + @"\Result.txt");
+            TextWriter aadtWriter = File.AppendText(path + @"\AADTVal.txt");
             aadtWriter.WriteLine(currentATR + " - " + Math.Round(totalSum / count));
             if (count >= 180)
             {
@@ -168,16 +168,16 @@ namespace AADT
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-
             AADTForm aadt = new AADTForm();
             Application.Run(aadt);
+            
             string n = aadt.name;
-            path = aadt.path;
+            path = AADTForm.path;
             foreach (string s in todelete)
             {
-                File.Delete(path+@"\OP\"+s+".txt");
+                File.Delete(path+@"\"+s+".txt");
             }
-            int dataSelected = aadt.dataSelected;
+            string dataSelected = aadt.dataSelected;
 
 
             int[] interstate = { 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 42, 43, 46, 49, 50, 51, 52, 53, 54, 55, 56, 69, 70, 71, 72, 77, 80, 81, 84, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 106, 108, 109, 110, 111, 112, 113, 114, 115, 116, 118, 120, 121, 123, 124, 125, 126, 127, 128, 132, 137, 138, 139, 142, 145, 146, 150, 157 };
@@ -197,13 +197,13 @@ namespace AADT
             int[] trainingSet;
             switch (dataSelected)
             {
-                case 1:
+                case "Interstate":
                     trainingSet = interstate;
                     break;
-                case 2:
+                case "Arterial":
                     trainingSet = arterial;
                     break;
-                case 3:
+                case "Collector":
                     trainingSet = collector;
                     break;
                 default:
@@ -213,7 +213,7 @@ namespace AADT
 
             string basePath = path + @"\ATR_Data_2016\";
             Program p = new Program();
-            StreamReader ipReader = new StreamReader(path + @"\OP\Input.txt");
+            StreamReader ipReader = new StreamReader(path + @"\Input.txt");
             string ip = ipReader.ReadToEnd();
             ip = ip.Replace("\r", "");
             string[] ipArray = ip.Split('\n');
@@ -223,7 +223,7 @@ namespace AADT
             int mycount = 0;
             int[] vol = new int[mytot];
             string resultString = "";
-            StreamWriter testWriter = new StreamWriter(path + @"\OP\Test.txt");
+            StreamWriter testWriter = new StreamWriter(path + @"\Test.txt");
             while (count < ipArray.Length)
             {
                 if (count % 3 == 0)
@@ -279,7 +279,7 @@ namespace AADT
             List<int> trainATR = new List<int>();
             List<int> testATR = new List<int>();
 
-            StreamReader streamReader = new StreamReader(path + @"\OP\Result.txt");
+            StreamReader streamReader = new StreamReader(path + @"\Result.txt");
 
             string line = streamReader.ReadLine();
             while (line != null)
@@ -295,7 +295,7 @@ namespace AADT
             int x = inputATR.Count();
             int trainIndex = Convert.ToInt32(x * (1));
             int testIndex = x - trainIndex;
-            StreamWriter trainWriter = new StreamWriter(path + @"\OP\Train.txt");
+            StreamWriter trainWriter = new StreamWriter(path + @"\Train.txt");
 
             foreach (int i in Enumerable.Range(0, trainIndex))
             {
@@ -305,7 +305,7 @@ namespace AADT
             {
                 testATR.Add(inputATR[i]);
             }
-            streamReader = new StreamReader(path + @"\OP\Result.txt");
+            streamReader = new StreamReader(path + @"\Result.txt");
             line = streamReader.ReadLine();
             while (line != null)
             {
@@ -351,8 +351,8 @@ namespace AADT
             int[] ytest = Enumerable.Range(32, 1).ToArray();
 
 
-            SVMProblem trainData = SVMProblemHelper.Load(path + @"\OP\Train.txt");
-            SVMProblem testData = SVMProblemHelper.Load(path + @"\OP\Test.txt");
+            SVMProblem trainData = SVMProblemHelper.Load(path + @"\Train.txt");
+            SVMProblem testData = SVMProblemHelper.Load(path + @"\Test.txt");
 
             trainData = trainData.Normalize(SVMNormType.L1);
             testData = testData.Normalize(SVMNormType.L1);
@@ -364,28 +364,29 @@ namespace AADT
             parameter.Gamma = 1;
 
             SVMModel model = SVM.Train(trainData, parameter);
-            SVM.SaveModel(model, path + @"\OP\AADT_model.txt");
+            SVM.SaveModel(model, path + @"\AADT_model.txt");
             //SVMModel model = SVM.LoadModel(@"\OP\AADT_model.txt");
 
             double[] testResults = testData.Predict(model);
-            StreamWriter outputWriter = new StreamWriter(path + @"\OP\Output.txt");
+            StreamWriter outputWriter = new StreamWriter(path + @"\Output.txt");
 
-            StreamReader streamReader2 = new StreamReader(path + @"\OP\allAADT.txt");
-            List<string> allAADT = new List<string>();
-            string line2 = streamReader2.ReadLine();
-            while (line2 != null)
-            {
-                allAADT.Add(line2.Substring(0));
-                //Console.WriteLine(line);   
-                line2 = streamReader2.ReadLine();
-            }
-            streamReader2.Close();
+            //StreamReader streamReader2 = new StreamReader(path + @"\allAADT.txt");
+            //List<string> allAADT = new List<string>();
+            //string line2 = streamReader2.ReadLine();
+            //while (line2 != null)
+            //{
+            //    allAADT.Add(line2.Substring(0));
+            //    //Console.WriteLine(line);   
+            //    line2 = streamReader2.ReadLine();
+            //}
+            //streamReader2.Close();
 
-            outputWriter.WriteLine("ATR Number" + " - " + "Predicted AADT" + " - " + "Actual AADT" + " - " + "Error(%)");
+            //outputWriter.WriteLine("ATR Number" + " - " + "Predicted AADT" + " - " + "Actual AADT" + " - " + "Error(%)");
             for (int i = 0; i < testData.Length; i++)
             {
                 //aadtarray[i] = allAADT[Convert.ToInt32(atrs[i])-1];
-                outputWriter.WriteLine(atrs[i] + " - " + Math.Round(vol[i]/testResults[i]) + " - " + Convert.ToInt32(allAADT[Convert.ToInt32(atrs[i])-1]) + " - " + Math.Round(Math.Abs((Math.Round(vol[i] / testResults[i])) - Convert.ToInt32(allAADT[Convert.ToInt32(atrs[i]) - 1])) * 100 / Convert.ToInt32(allAADT[Convert.ToInt32(atrs[i]) - 1])));
+                //outputWriter.WriteLine(atrs[i] + " - " + Math.Round(vol[i]/testResults[i]) + " - " + Convert.ToInt32(allAADT[Convert.ToInt32(atrs[i])-1]) + " - " + Math.Round(Math.Abs((Math.Round(vol[i] / testResults[i])) - Convert.ToInt32(allAADT[Convert.ToInt32(atrs[i]) - 1])) * 100 / Convert.ToInt32(allAADT[Convert.ToInt32(atrs[i]) - 1])));
+                outputWriter.WriteLine(Math.Round(vol[i] / testResults[i]));
             }
             outputWriter.Flush();
             outputWriter.Close();
@@ -433,6 +434,14 @@ namespace AADT
 
             //Application.Run(new AADTForm());
             //Console.ReadLine();
+            //MessageBox.Show("Prediction Done!");
+
+            DoneForm done = new DoneForm();
+            done.Controls["outputLinkLabel"].Text = path + @"\Output.txt";
+            done.ShowDialog();
+            //Application.Run(done);
+            string exitCode = done.exitCode;
+            Console.ReadLine();
         }
     }
 }
