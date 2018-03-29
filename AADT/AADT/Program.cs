@@ -170,12 +170,12 @@ namespace AADT
 
             AADTForm aadt = new AADTForm();
             Application.Run(aadt);
-            
+
             string n = aadt.name;
             path = AADTForm.path;
             foreach (string s in todelete)
             {
-                File.Delete(path+@"\"+s+".txt");
+                File.Delete(path + @"\" + s + ".txt");
             }
             string dataSelected = aadt.dataSelected;
 
@@ -195,7 +195,8 @@ namespace AADT
             int[] AADT = new int[166];
             int[] ATR = new int[166];
             int[] trainingSet;
-            switch (dataSelected)
+
+            /*switch (dataSelected)
             {
                 case "Interstate":
                     trainingSet = interstate;
@@ -209,63 +210,96 @@ namespace AADT
                 default:
                     trainingSet = allATR;
                     break;
-            }
+            }*/
+            Dictionary<int, int> modelDict = new Dictionary<int, int> {
+                { 12, 1 },
+                { 2, 2},
+                { 3, 2},
+                { 13, 2},
+                { 14, 2},
+                { 4, 3},
+                { 5, 3},
+                { 9, 3},
+                { 15, 3},
+                { 18, 3}
+                };
+
+            //StreamReader ipReader = new StreamReader(path + @"\SuggestedInputFormat.csv");
+            string ip = File.ReadAllText(path + @"\Input.csv");
+            string[] ipArray = ip.Replace("County,Station,Date,FClass,Hour1,Hour2,Hour3,Hour4,Hour5,Hour6,Hour7,Hour8,Hour9,Hour10,Hour11,Hour12,Hour13,Hour14,Hour15,Hour16,Hour17,Hour18,Hour19,Hour20,Hour21,Hour22,Hour23,Hour24\r\n", "").Replace(',', ' ').Replace("\n", "").Split(new char[] { '\r' }, StringSplitOptions.RemoveEmptyEntries);
 
             string basePath = path + @"\ATR_Data_2016\";
             Program p = new Program();
-            StreamReader ipReader = new StreamReader(path + @"\Input.txt");
-            string ip = ipReader.ReadToEnd();
-            ip = ip.Replace("\r", "");
-            string[] ipArray = ip.Split('\n');
+
+            //string ip = ipReader.ReadToEnd();            
+            //ip = ip.Replace("\r", "");
+            //string[] ipArray = ip.Split('\n');
+
             string currentATR = "";
-            int count = 3;
+            //int count = 3;
             int mytot = (ipArray.Length - 2) / 3;
             int mycount = 0;
             int[] vol = new int[mytot];
             string resultString = "";
             StreamWriter testWriter = new StreamWriter(path + @"\Test.txt");
-            while (count < ipArray.Length)
+            List<int> fClass = new List<int>();
+            foreach (string ss in ipArray)
             {
-                if (count % 3 == 0)
-                {
-                    //resultString = "0 ";
-                    DateTime date = DateTime.ParseExact(ipArray[count - 1], "d", CultureInfo.InvariantCulture);
-                    string binaryMonth = Convert.ToString(date.Month, 2);
-                    binaryMonth = binaryMonth.PadLeft(4, '0');
-                    binaryMonth = Regex.Replace(binaryMonth, ".{1}", "$0-");
-                    resultString += binaryMonth;
-                    string binaryDayOfWeek = Convert.ToString(Convert.ToInt32(date.DayOfWeek) + 1, 2);
-                    binaryDayOfWeek = binaryDayOfWeek.PadLeft(3, '0');
-                    binaryDayOfWeek = Regex.Replace(binaryDayOfWeek, ".{1}", "$0-");
-                    resultString += binaryDayOfWeek;
-                    count++;
-                    resultString = resultString.Remove(resultString.Length - 1);
-                }
-                else
-                {
-                    currentATR += ipArray[count - 1] + "-";
+                string[] tempy = ss.Split(new char[] { ' ' }, 5);
 
-                    count++;
-                    int dayVolumeSum = ipArray[count - 1].Split(' ').Select(int.Parse).ToArray().Sum();
-                    vol[mycount] = dayVolumeSum;
-                    mycount++;
-                    foreach (string s in ipArray[count - 1].Split(' '))
-                    {
-                        resultString += "-" + Math.Round(Convert.ToDecimal(s) / dayVolumeSum, 5);
-                    }
-                    //resultString.Replace("--", "-");
-                    count++;
-                    string result = "0 ";
-                    int itemCount = 1;
-                    foreach (string s in resultString.Split('-'))
-                    {
-                        result += itemCount + ":" + s + " ";
-                        itemCount++;
-                    }
-                    testWriter.WriteLine(result);
-                    resultString = "";
-                }
+                fClass.Add(Convert.ToInt32(tempy[3]));
 
+                DateTime date = DateTime.ParseExact(tempy[2], "d", CultureInfo.InvariantCulture);
+                string binaryMonth = Convert.ToString(date.Month, 2);
+                binaryMonth = binaryMonth.PadLeft(4, '0');
+                binaryMonth = Regex.Replace(binaryMonth, ".{1}", "$0-");
+                resultString += binaryMonth;
+                string binaryDayOfWeek = Convert.ToString(Convert.ToInt32(date.DayOfWeek) + 1, 2);
+                binaryDayOfWeek = binaryDayOfWeek.PadLeft(3, '0');
+                binaryDayOfWeek = Regex.Replace(binaryDayOfWeek, ".{1}", "$0-");
+                resultString += binaryDayOfWeek;
+                //count++;
+                resultString = resultString.Remove(resultString.Length - 1);
+
+
+                currentATR += tempy[1] + "-";
+                //count++;
+                int dayVolumeSum = tempy[4].Split(' ').Select(int.Parse).ToArray().Sum();
+                vol[mycount] = dayVolumeSum;
+                //mycount++;
+                foreach (string s in tempy[4].Split(' '))
+                {
+                    resultString += "-" + Math.Round(Convert.ToDecimal(s) / dayVolumeSum, 5);
+                }
+                //resultString.Replace("--", "-");
+                //count++;
+                string result = "0 ";
+                int itemCount = 1;
+                foreach (string s in resultString.Split('-'))
+                {
+                    result += itemCount + ":" + s + " ";
+                    itemCount++;
+                }
+                testWriter.WriteLine(result);
+                resultString = "";
+
+
+            }
+            int fclass = modelDict[fClass[0]];
+            switch (fclass)
+            {
+                case 1:
+                    trainingSet = interstate;
+                    break;
+                case 2:
+                    trainingSet = arterial;
+                    break;
+                case 3:
+                    trainingSet = collector;
+                    break;
+                default:
+                    trainingSet = allATR;
+                    break;
             }
             currentATR = currentATR.TrimEnd('-');
             string[] atrs = currentATR.Split('-');
@@ -335,7 +369,7 @@ namespace AADT
                         temp += " " + colonCount++.ToString() + ":" + s;
                     }
                     string v = temp.Remove(0, temp.IndexOf("32:") + 3) + " " + temp.Remove(0, temp.IndexOf(' ') + 1).Remove(temp.IndexOf("32:") - 4);// + " 32:"+temp.Substring(0, temp.IndexOf(" "));
-                    //testWriter.WriteLine(v);
+                                                                                                                                                     //testWriter.WriteLine(v);
                 }
                 line = streamReader.ReadLine();
             }
@@ -360,6 +394,7 @@ namespace AADT
             SVMParameter parameter = new SVMParameter();
             parameter.Type = SVMType.EPSILON_SVR;
             parameter.Kernel = SVMKernelType.RBF;
+
             parameter.C = 1;
             parameter.Gamma = 1;
 
@@ -386,7 +421,7 @@ namespace AADT
             {
                 //aadtarray[i] = allAADT[Convert.ToInt32(atrs[i])-1];
                 //outputWriter.WriteLine(atrs[i] + " - " + Math.Round(vol[i]/testResults[i]) + " - " + Convert.ToInt32(allAADT[Convert.ToInt32(atrs[i])-1]) + " - " + Math.Round(Math.Abs((Math.Round(vol[i] / testResults[i])) - Convert.ToInt32(allAADT[Convert.ToInt32(atrs[i]) - 1])) * 100 / Convert.ToInt32(allAADT[Convert.ToInt32(atrs[i]) - 1])));
-                outputWriter.WriteLine(Math.Round(vol[i] / testResults[i]));
+                outputWriter.WriteLine(Math.Round(vol[0] / testResults[i]));
             }
             outputWriter.Flush();
             outputWriter.Close();
@@ -445,3 +480,4 @@ namespace AADT
         }
     }
 }
+
