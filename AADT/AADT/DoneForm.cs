@@ -28,9 +28,6 @@ namespace AADT
             Application.Exit();
         }
 
-        private void outputLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            System.Diagnostics.Process.Start(outputLinkLabel.Text);
-        }
+        private void outputLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) => System.Diagnostics.Process.Start(outputLinkLabel.Text);
     }
 }

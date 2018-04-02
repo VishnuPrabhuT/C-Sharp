@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace AADT
@@ -30,8 +31,10 @@ namespace AADT
 
         private void predictButton_Click(object sender, EventArgs e)
         {
+            progressBar1.Show();
             path = pathTextBox.Text;
-            Application.OpenForms["AADTForm"].Close();
+            minionBackgroundWorker.WorkerReportsProgress = true;
+            minionBackgroundWorker.RunWorkerAsync();
             //Application.Exit();
         }
 
@@ -53,6 +56,30 @@ namespace AADT
             dataSelected = roadWayComboBox.SelectedItem.ToString();
         }
 
+        private void minionBackgroundWorker_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
+        {
+            for (int i = 1; i <= 100; i++)
+            {
+                Thread.Sleep(100);  
+                minionBackgroundWorker.ReportProgress(i);
+            }
+        }
+
+        private void minionBackgroundWorker_ProgressChanged(object sender, System.ComponentModel.ProgressChangedEventArgs e)
+        {
+            progressBar1.Value = e.ProgressPercentage;
+            this.Text = "Progress: " + e.ProgressPercentage.ToString() + "%";
+        }
+
+        private void minionBackgroundWorker_RunWorkerCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
+        {
+            Application.OpenForms["AADTForm"].Close();
+        }
+
+        private void AADTForm_Load(object sender, EventArgs e)
+        {
+            progressBar1.Hide();
+        }
     }
 }
 

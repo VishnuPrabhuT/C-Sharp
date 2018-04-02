@@ -170,7 +170,6 @@ namespace AADT
 
             AADTForm aadt = new AADTForm();
             Application.Run(aadt);
-
             string n = aadt.name;
             path = AADTForm.path;
             foreach (string s in todelete)
