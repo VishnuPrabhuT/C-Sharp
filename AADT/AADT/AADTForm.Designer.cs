@@ -122,7 +122,6 @@
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(523, 23);
             this.progressBar1.TabIndex = 10;
-            this.progressBar1.Value = 100;
             // 
             // minionBackgroundWorker
             // 
