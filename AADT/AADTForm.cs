@@ -10,6 +10,7 @@ using System.Globalization;
 using System.Collections;
 using System.Text.RegularExpressions;
 using LibSVMsharp.Extensions;
+using System.Data;
 
 namespace AADT
 {
@@ -42,6 +43,12 @@ namespace AADT
             set;
         }
 
+        public static string parameterPath
+        {
+            get;
+            set;
+        }
+
         public string dataSelected
         {
             get;
@@ -53,6 +60,7 @@ namespace AADT
             progressBar1.Show();
             path = pathTextBox.Text;
             dataPath = dataPathTextBox.Text;
+            parameterPath = parameterTextBox.Text;
             minionBackgroundWorker.WorkerReportsProgress = true;
             minionBackgroundWorker.RunWorkerAsync();
 
@@ -83,6 +91,18 @@ namespace AADT
             }
         }
 
+        private void browseButton3_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.CheckFileExists = true;
+            // Show the FolderBrowserDialog.
+            DialogResult result = openFileDialog.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                parameterTextBox.Text = openFileDialog.FileName;
+            }
+        }
+
         private void minionBackgroundWorker_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
             string[] todelete = { "Train.txt", "Test.txt", "Result.txt", "Output.csv", "AADT_model.txt", "AADTVal.txt" };
@@ -92,6 +112,7 @@ namespace AADT
             path = @"C:\temp\";
             opPath = ip.Replace(@"\Input.csv", "");
             dataPath = AADTForm.dataPath;
+            parameterPath = AADTForm.parameterPath;
             foreach (string s in todelete)
             {
                 if (File.Exists(path + @"\" + s))
@@ -264,7 +285,7 @@ namespace AADT
                 SVMProblem trainData = SVMProblemHelper.Load(path + "Train.txt");
 
                 trainData = trainData.Normalize(SVMNormType.L1);
-
+                string[] parameterData = File.ReadAllText(parameterPath).Replace("\r","").Split('\n');
                 SVMParameter parameter = new SVMParameter();
                 parameter.Type = SVMType.EPSILON_SVR;
                 parameter.Kernel = SVMKernelType.RBF;
@@ -273,22 +294,22 @@ namespace AADT
 
                 if (q == 1)
                 {
-                    parameter.C = 1;
-                    parameter.Gamma = 1;
+                    parameter.C = Convert.ToDouble(parameterData[q].Split(',')[0]);
+                    parameter.Gamma = Convert.ToDouble(parameterData[q].Split(',')[1]);
                     model1 = SVM.Train(trainData, parameter);
                     minionBackgroundWorker.ReportProgress(50);
                 }
                 if (q == 2)
                 {
-                    parameter.C = 1;
-                    parameter.Gamma = 1;
+                    parameter.C = Convert.ToDouble(parameterData[q].Split(',')[0]);
+                    parameter.Gamma = Convert.ToDouble(parameterData[q].Split(',')[1]);
                     model2 = SVM.Train(trainData, parameter);
                     minionBackgroundWorker.ReportProgress(70);
                 }
                 if (q == 3)
                 {
-                    parameter.C = 1000;
-                    parameter.Gamma = 1;
+                    parameter.C = Convert.ToDouble(parameterData[q].Split(',')[0]);
+                    parameter.Gamma = Convert.ToDouble(parameterData[q].Split(',')[1]);
                     model3 = SVM.Train(trainData, parameter);
                     minionBackgroundWorker.ReportProgress(90);
                 }
@@ -367,7 +388,7 @@ namespace AADT
                 }
                 outputWriter.WriteLine(distinct_county[j] + "," + distinct_station[j] + "," + distinct_fclass[j] + "," + Math.Round(AADTfinal[j] / AADTcount) + "," + Math.Round(AADTfactor[j] / AADTcount));
             }
-
+            outputWriter.WriteLine(DateTime.Now.ToString("yyyy/dd/MM HH:mm"));
             outputWriter.Flush();
             outputWriter.Close();
             minionBackgroundWorker.ReportProgress(100);

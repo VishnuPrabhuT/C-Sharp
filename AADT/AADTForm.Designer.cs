@@ -41,13 +41,16 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.browseButton3 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.parameterTextBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // predictButton
             // 
             this.predictButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.predictButton.Location = new System.Drawing.Point(168, 286);
+            this.predictButton.Location = new System.Drawing.Point(168, 366);
             this.predictButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.predictButton.Name = "predictButton";
             this.predictButton.Size = new System.Drawing.Size(203, 54);
@@ -69,7 +72,7 @@
             // 
             this.pathLabel.AutoSize = true;
             this.pathLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pathLabel.Location = new System.Drawing.Point(162, 38);
+            this.pathLabel.Location = new System.Drawing.Point(148, 38);
             this.pathLabel.Name = "pathLabel";
             this.pathLabel.Size = new System.Drawing.Size(236, 31);
             this.pathLabel.TabIndex = 4;
@@ -88,7 +91,7 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(55, 375);
+            this.progressBar1.Location = new System.Drawing.Point(36, 450);
             this.progressBar1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(523, 60);
@@ -104,7 +107,7 @@
             // 
             this.dataPathLabel.AutoSize = true;
             this.dataPathLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataPathLabel.Location = new System.Drawing.Point(162, 158);
+            this.dataPathLabel.Location = new System.Drawing.Point(162, 245);
             this.dataPathLabel.Name = "dataPathLabel";
             this.dataPathLabel.Size = new System.Drawing.Size(209, 31);
             this.dataPathLabel.TabIndex = 11;
@@ -113,7 +116,7 @@
             // dataPathTextBox
             // 
             this.dataPathTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataPathTextBox.Location = new System.Drawing.Point(81, 219);
+            this.dataPathTextBox.Location = new System.Drawing.Point(81, 295);
             this.dataPathTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataPathTextBox.Name = "dataPathTextBox";
             this.dataPathTextBox.Size = new System.Drawing.Size(370, 30);
@@ -121,7 +124,7 @@
             // 
             // browseButton2
             // 
-            this.browseButton2.Location = new System.Drawing.Point(479, 215);
+            this.browseButton2.Location = new System.Drawing.Point(479, 291);
             this.browseButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.browseButton2.Name = "browseButton2";
             this.browseButton2.Size = new System.Drawing.Size(99, 34);
@@ -133,7 +136,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::AADT.Properties.Resources.Flat_Folder_icon;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 203);
+            this.pictureBox2.Location = new System.Drawing.Point(12, 281);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(51, 57);
@@ -148,18 +151,51 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(455, 300);
+            this.checkBox1.Location = new System.Drawing.Point(455, 380);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(123, 21);
             this.checkBox1.TabIndex = 15;
             this.checkBox1.Text = "New ATR Data";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
+            // browseButton3
+            // 
+            this.browseButton3.Location = new System.Drawing.Point(479, 196);
+            this.browseButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.browseButton3.Name = "browseButton3";
+            this.browseButton3.Size = new System.Drawing.Size(99, 34);
+            this.browseButton3.TabIndex = 18;
+            this.browseButton3.Text = "Browse";
+            this.browseButton3.UseVisualStyleBackColor = true;
+            this.browseButton3.Click += new System.EventHandler(this.browseButton3_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(112, 151);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(301, 31);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Parameter File Location";
+            // 
+            // parameterTextBox
+            // 
+            this.parameterTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.parameterTextBox.Location = new System.Drawing.Point(81, 200);
+            this.parameterTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.parameterTextBox.Name = "parameterTextBox";
+            this.parameterTextBox.Size = new System.Drawing.Size(370, 30);
+            this.parameterTextBox.TabIndex = 16;
+            // 
             // AADTForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(611, 464);
+            this.ClientSize = new System.Drawing.Size(597, 543);
+            this.Controls.Add(this.browseButton3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.parameterTextBox);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.browseButton2);
@@ -195,5 +231,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button browseButton3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox parameterTextBox;
     }
 }
