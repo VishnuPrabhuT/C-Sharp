@@ -40,17 +40,20 @@
             this.browseButton2 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.newDataCheckBox = new System.Windows.Forms.CheckBox();
             this.browseButton3 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.parameterTextBox = new System.Windows.Forms.TextBox();
+            this.browseButton4 = new System.Windows.Forms.Button();
+            this.factorsTextBox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // predictButton
             // 
             this.predictButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.predictButton.Location = new System.Drawing.Point(308, 366);
+            this.predictButton.Location = new System.Drawing.Point(280, 458);
             this.predictButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.predictButton.Name = "predictButton";
             this.predictButton.Size = new System.Drawing.Size(203, 54);
@@ -91,7 +94,7 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(81, 455);
+            this.progressBar1.Location = new System.Drawing.Point(81, 537);
             this.progressBar1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(668, 60);
@@ -107,7 +110,7 @@
             // 
             this.dataPathLabel.AutoSize = true;
             this.dataPathLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataPathLabel.Location = new System.Drawing.Point(274, 253);
+            this.dataPathLabel.Location = new System.Drawing.Point(274, 356);
             this.dataPathLabel.Name = "dataPathLabel";
             this.dataPathLabel.Size = new System.Drawing.Size(209, 31);
             this.dataPathLabel.TabIndex = 11;
@@ -116,7 +119,7 @@
             // dataPathTextBox
             // 
             this.dataPathTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataPathTextBox.Location = new System.Drawing.Point(81, 300);
+            this.dataPathTextBox.Location = new System.Drawing.Point(81, 407);
             this.dataPathTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataPathTextBox.Name = "dataPathTextBox";
             this.dataPathTextBox.Size = new System.Drawing.Size(542, 30);
@@ -124,7 +127,7 @@
             // 
             // browseButton2
             // 
-            this.browseButton2.Location = new System.Drawing.Point(650, 300);
+            this.browseButton2.Location = new System.Drawing.Point(650, 407);
             this.browseButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.browseButton2.Name = "browseButton2";
             this.browseButton2.Size = new System.Drawing.Size(99, 30);
@@ -136,7 +139,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::AADT.Properties.Resources.Flat_Folder_icon;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 281);
+            this.pictureBox2.Location = new System.Drawing.Point(12, 392);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(51, 57);
@@ -148,15 +151,15 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // checkBox1
+            // newDataCheckBox
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(626, 389);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(123, 21);
-            this.checkBox1.TabIndex = 15;
-            this.checkBox1.Text = "New ATR Data";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.newDataCheckBox.AutoSize = true;
+            this.newDataCheckBox.Location = new System.Drawing.Point(626, 481);
+            this.newDataCheckBox.Name = "newDataCheckBox";
+            this.newDataCheckBox.Size = new System.Drawing.Size(123, 21);
+            this.newDataCheckBox.TabIndex = 15;
+            this.newDataCheckBox.Text = "New ATR Data";
+            this.newDataCheckBox.UseVisualStyleBackColor = true;
             // 
             // browseButton3
             // 
@@ -188,15 +191,48 @@
             this.parameterTextBox.Size = new System.Drawing.Size(542, 30);
             this.parameterTextBox.TabIndex = 16;
             // 
+            // browseButton4
+            // 
+            this.browseButton4.Location = new System.Drawing.Point(650, 305);
+            this.browseButton4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.browseButton4.Name = "browseButton4";
+            this.browseButton4.Size = new System.Drawing.Size(99, 30);
+            this.browseButton4.TabIndex = 21;
+            this.browseButton4.Text = "Browse";
+            this.browseButton4.UseVisualStyleBackColor = true;
+            this.browseButton4.Click += new System.EventHandler(this.browseButton4_Click);
+            // 
+            // factorsTextBox
+            // 
+            this.factorsTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.factorsTextBox.Location = new System.Drawing.Point(81, 305);
+            this.factorsTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.factorsTextBox.Name = "factorsTextBox";
+            this.factorsTextBox.Size = new System.Drawing.Size(542, 30);
+            this.factorsTextBox.TabIndex = 20;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(246, 254);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(267, 31);
+            this.label2.TabIndex = 19;
+            this.label2.Text = "Factors File Location";
+            // 
             // AADTForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(827, 543);
+            this.ClientSize = new System.Drawing.Size(827, 632);
+            this.Controls.Add(this.browseButton4);
+            this.Controls.Add(this.factorsTextBox);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.browseButton3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.parameterTextBox);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.newDataCheckBox);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.browseButton2);
             this.Controls.Add(this.dataPathTextBox);
@@ -230,9 +266,12 @@
         private System.Windows.Forms.Button browseButton2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox newDataCheckBox;
         private System.Windows.Forms.Button browseButton3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox parameterTextBox;
+        private System.Windows.Forms.Button browseButton4;
+        private System.Windows.Forms.TextBox factorsTextBox;
+        private System.Windows.Forms.Label label2;
     }
 }

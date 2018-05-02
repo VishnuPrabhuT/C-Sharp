@@ -49,6 +49,18 @@ namespace AADT
             set;
         }
 
+        public static string factorsPath
+        {
+            get;
+            set;
+        }
+
+        public static bool newDataFlag
+        {
+            get;
+            set;
+        }
+
         public string dataSelected
         {
             get;
@@ -61,6 +73,8 @@ namespace AADT
             path = pathTextBox.Text;
             dataPath = dataPathTextBox.Text;
             parameterPath = parameterTextBox.Text;
+            factorsPath = factorsTextBox.Text;
+            newDataFlag = newDataCheckBox.Checked;
             minionBackgroundWorker.WorkerReportsProgress = true;
             minionBackgroundWorker.RunWorkerAsync();
 
@@ -68,38 +82,58 @@ namespace AADT
 
         private void browseButton_Click(object sender, EventArgs e)
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.CheckFileExists = true;
-            // Show the FolderBrowserDialog.
-            DialogResult result = openFileDialog.ShowDialog();
-            if (result == DialogResult.OK)
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                pathTextBox.Text = openFileDialog.FileName;
+                openFileDialog.CheckFileExists = true;
+                // Show the FolderBrowserDialog.
+                DialogResult result = openFileDialog.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    pathTextBox.Text = openFileDialog.FileName;
+                }
             }
         }
 
         private void browseButton2_Click(object sender, EventArgs e)
         {
-            FolderBrowserDialog folderDlg = new FolderBrowserDialog();
-            folderDlg.ShowNewFolderButton = true;
-            // Show the FolderBrowserDialog.
-            DialogResult result = folderDlg.ShowDialog();
-            if (result == DialogResult.OK)
+            using (FolderBrowserDialog folderDlg = new FolderBrowserDialog())
             {
-                dataPathTextBox.Text = folderDlg.SelectedPath;
-                Environment.SpecialFolder root = folderDlg.RootFolder;
+                folderDlg.ShowNewFolderButton = true;
+                // Show the FolderBrowserDialog.
+                DialogResult result = folderDlg.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    dataPathTextBox.Text = folderDlg.SelectedPath;
+                    Environment.SpecialFolder root = folderDlg.RootFolder;
+                }
             }
         }
 
         private void browseButton3_Click(object sender, EventArgs e)
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.CheckFileExists = true;
-            // Show the FolderBrowserDialog.
-            DialogResult result = openFileDialog.ShowDialog();
-            if (result == DialogResult.OK)
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                parameterTextBox.Text = openFileDialog.FileName;
+                openFileDialog.CheckFileExists = true;
+                // Show the FolderBrowserDialog.
+                DialogResult result = openFileDialog.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    parameterTextBox.Text = openFileDialog.FileName;
+                }
+            }
+        }
+
+        private void browseButton4_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
+            {
+                openFileDialog.CheckFileExists = true;
+                // Show the FolderBrowserDialog.
+                DialogResult result = openFileDialog.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    factorsTextBox.Text = openFileDialog.FileName;
+                }
             }
         }
 
@@ -112,7 +146,9 @@ namespace AADT
             path = @"C:\temp\";
             opPath = ip.Replace(@"\Input.csv", "");
             dataPath = AADTForm.dataPath;
+            factorsPath = AADTForm.factorsPath;
             parameterPath = AADTForm.parameterPath;
+            newDataFlag = AADTForm.newDataFlag;
             foreach (string s in todelete)
             {
                 if (File.Exists(path + @"\" + s))
@@ -285,7 +321,7 @@ namespace AADT
                 SVMProblem trainData = SVMProblemHelper.Load(path + "Train.txt");
 
                 trainData = trainData.Normalize(SVMNormType.L1);
-                string[] parameterData = File.ReadAllText(parameterPath).Replace("\r","").Split('\n');
+                string[] parameterData = File.ReadAllText(parameterPath).Replace("\r", "").Split('\n');
                 SVMParameter parameter = new SVMParameter();
                 parameter.Type = SVMType.EPSILON_SVR;
                 parameter.Kernel = SVMKernelType.RBF;
@@ -364,7 +400,7 @@ namespace AADT
                     if (model_no[i] == 1 && distinct_station[j] == station[i])
                     {
                         AADTfinal[j] = AADTfinal[j] + Math.Round(vol[i] / testResults1[i]);
-                        AADTfactor[j] = AADTfactor[j] + vol[i] * axle_factor[fClass[i]] * season_factor[fClass[i],stc_month[i]];
+                        AADTfactor[j] = AADTfactor[j] + vol[i] * axle_factor[fClass[i]] * season_factor[fClass[i], stc_month[i]];
                         distinct_county[j] = county[i];
                         distinct_fclass[j] = fClass[i];
                         AADTcount++;
@@ -512,7 +548,7 @@ namespace AADT
         {
             string line = string.Empty;
             totalSum = 0;
-            string currentATR = fileLocation.Replace(dataPath+@"\", "").Replace(".txt", "");
+            string currentATR = fileLocation.Replace(dataPath + @"\", "").Replace(".txt", "");
             reader = new StreamReader(fileLocation);
             List<string> resultList = new List<string>();
             Hashtable aadtVal = new Hashtable();
