@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace ToDoList.Model
+{
+    public class NoteModel
+    {
+        public string NoteContent { get; set; }
+        public bool IsCompleted { get; set; }
+    }
+}
