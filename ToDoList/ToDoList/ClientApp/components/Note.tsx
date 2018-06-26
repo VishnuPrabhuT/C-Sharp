@@ -11,9 +11,8 @@ interface INote {
 export class Note extends Component<any, INote> {
     constructor(props: INote) {
         super(props);
-        console.log(this);
         this.state = { id: props.id, noteContent: props.noteContent, isCompleted: props.isCompleted };
-        this.writeComplete = this.writeComplete.bind(this);
+        this.taskComplete = this.taskComplete.bind(this);
     };
     
     public render() {
@@ -21,7 +20,7 @@ export class Note extends Component<any, INote> {
         return (<div className="note fade-in">
             <span style={{ paddingTop: '27px' }}
                 aria-hidden="true">
-                <i style={{ color: colour}} onClick={this.writeComplete} className="closebtn fas fa-check-circle"></i>
+                <i style={{ color: colour }} onClick={this.taskComplete} className="closebtn fas fa-check-circle"></i>
             </span>
             <p style={{ paddingTop: '20px' }}
                 className="noteContent">
@@ -30,7 +29,7 @@ export class Note extends Component<any, INote> {
         </div>);
     }
 
-    writeComplete(e: any) {
+    taskComplete(e: any) {
         //console.log(e, this.state, this.props);
         var node = document.querySelector(".noteButton");
 

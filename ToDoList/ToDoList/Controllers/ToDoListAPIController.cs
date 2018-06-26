@@ -30,7 +30,7 @@ namespace ToDoList.Controllers
         {
             NoteEntity item = new NoteEntity { Id = _cxt.Notes.Count() + 1, NoteContent = note.NoteContent, IsCompleted = note.IsCompleted };
             _cxt.Notes.Add(item);
-            _cxt.SaveChangesAsync();
+            _cxt.SaveChanges();
             return CreatedAtRoute("ToDoList", item, note);
         }
 
@@ -44,8 +44,8 @@ namespace ToDoList.Controllers
             }
             item.IsCompleted = !(item.IsCompleted);
             _cxt.Notes.Update(item);
-            _cxt.SaveChangesAsync();
-            return NoContent();
+            _cxt.SaveChanges();
+            return Ok();
         }
     }
 }

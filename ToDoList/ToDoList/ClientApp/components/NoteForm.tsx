@@ -10,7 +10,7 @@ export class NoteForm extends Component<any, INoteForm> {
 
     constructor(props: any) {
         super(props);
-        this.state = { newNoteContent: ""};
+        this.state = { newNoteContent: "" };
         this.handleInput = this.handleInput.bind(this);
         this.writeNote = this.writeNote.bind(this);
     }
@@ -18,7 +18,7 @@ export class NoteForm extends Component<any, INoteForm> {
     public render() {
         return (
             <div className="formWrapper">
-                <input className="noteInput"
+                <input id="ip" className="noteInput"
                     type="text"
                     onChange={this.handleInput}
                     value={this.props.newNoteContent}
@@ -43,7 +43,7 @@ export class NoteForm extends Component<any, INoteForm> {
         //console.log(this.state.newNoteContent);
         this.props.addNote(this.state.newNoteContent);
         this.setState({
-                newNoteContent: '',
+            newNoteContent: "",
         })
     }
 }

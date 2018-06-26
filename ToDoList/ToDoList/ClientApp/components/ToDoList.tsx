@@ -32,7 +32,7 @@ export class ToDoList extends Component<RouteComponentProps<{}>, IToDoList> {
 
     addNote(note: INoteItem) {
         const prevNotes = this.state.notes;
-        prevNotes.push({ noteID: this.state.notes.length + 1, noteContent: note });
+        prevNotes.push({ id: this.state.notes.length + 1, noteContent: note });
         this.setState({
             notes: prevNotes
         })
@@ -42,10 +42,14 @@ export class ToDoList extends Component<RouteComponentProps<{}>, IToDoList> {
                 'Accept': 'application/json, text/plain',
                 'Content-type': 'application/json'
             },
-            body: JSON.stringify({ noteID: prevNotes.length, noteContent: note, isCompleted: false })
+            body: JSON.stringify({ noteContent: note, isCompleted: false })
         })
             .then((res) => res.json)
             .then((data) => console.log(data));
+        let ip = document.getElementById("ip");
+        if (ip) {
+            console.log(ip);
+        }
     }
 
     handleCompleted(id: number) {
@@ -59,6 +63,7 @@ export class ToDoList extends Component<RouteComponentProps<{}>, IToDoList> {
         this.setState({
             notes: prevNotes
         })
+        //console.log(id);
         fetch('api/getnotes/' + id, {
             method: 'PUT',
             headers: {
@@ -90,7 +95,7 @@ export class ToDoList extends Component<RouteComponentProps<{}>, IToDoList> {
                                     noteContent={note.noteContent}
                                     isCompleted={note.isCompleted}
                                     handleCompleted={this.handleCompleted}
-                                    key={note.noteID} />
+                                    key={note.id} />
                             );
                         })
                     }
