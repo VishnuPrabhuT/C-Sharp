@@ -82,9 +82,9 @@ export class ToDoList extends Component<RouteComponentProps<{}>, IToDoList> {
         return (
             <div className="wrapper">
                 <div className="header">
-                    <div className="heading">ToDoList</div>
+                    <div className="heading">ToDoList - Web App</div>
                 </div>
-                <div className="notesForm" style={{ textAlign: 'center' }}>
+                <div className="notesForm">
                     <NoteForm addNote={this.addNote} />
                 </div>
                 <div className="notesBody">

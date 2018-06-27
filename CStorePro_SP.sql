@@ -16,16 +16,16 @@ AS
 			join tblMajors on tblStudent.major = tblMajors.majorID
 			join tblCourses on tblCourses.courseID = tblCourseGrade.courseID
 			join (select courseID,
-					max(case when cols = 'Fall 2014' then COALESCE(NULLIF(CAST(courseGrade AS VARCHAR(10)) ,'0'), '') else '' end) 'Fall 2014',
-					max(case when cols = 'Spring 2014' then COALESCE(NULLIF(CAST(courseGrade AS VARCHAR(10)) ,'0'), '') else '' end) 'Spring 2014',
-					max(case when cols = 'Fall 2015' then COALESCE(NULLIF(CAST(courseGrade AS VARCHAR(10)) ,'0'), '') else '' end) 'Fall 2015',
-					max(case when cols = 'Spring 2015' then COALESCE(NULLIF(CAST(courseGrade AS VARCHAR(10)) ,'0'), '') else '' end) 'Spring 2015',
-					max(case when cols = 'Fall 2016' then COALESCE(NULLIF(CAST(courseGrade AS VARCHAR(10)) ,'0'), '') else '' end) 'Fall 2016',
-					max(case when cols = 'Spring 2016' then COALESCE(NULLIF(CAST(courseGrade AS VARCHAR(10)) ,'0'), '') else '' end) 'Spring 2016',
-					max(case when cols = 'Fall 2017' then COALESCE(NULLIF(CAST(courseGrade AS VARCHAR(10)) ,'0'), '') else '' end) 'Fall 2017',
-					max(case when cols = 'Spring 2017' then COALESCE(NULLIF(CAST(courseGrade AS VARCHAR(10)) ,'0'), '') else '' end) 'Spring 2017',
-					max(case when cols = 'Fall 2018' then COALESCE(NULLIF(CAST(courseGrade AS VARCHAR(10)) ,'0'), '') else '' end) 'Fall 2018',
-					max(case when cols = 'Spring 2018' then COALESCE(NULLIF(CAST(courseGrade AS VARCHAR(10)) ,'0'), '') else '' end) 'Spring 2018'
+					max(case when cols = 'Fall 2014' then IIF(courseGrade = 0 OR courseGrade IS NULL, '', CAST(courseGrade AS VARCHAR(10))) else '' end) 'Fall 2014',
+					max(case when cols = 'Spring 2014' then IIF(courseGrade = 0 OR courseGrade IS NULL, '', CAST(courseGrade AS VARCHAR(10))) else '' end) 'Spring 2014',
+					max(case when cols = 'Fall 2015' then IIF(courseGrade = 0 OR courseGrade IS NULL, '', CAST(courseGrade AS VARCHAR(10))) else '' end) 'Fall 2015',
+					max(case when cols = 'Spring 2015' then IIF(courseGrade = 0 OR courseGrade IS NULL, '', CAST(courseGrade AS VARCHAR(10))) else '' end) 'Spring 2015',
+					max(case when cols = 'Fall 2016' then IIF(courseGrade = 0 OR courseGrade IS NULL, '', CAST(courseGrade AS VARCHAR(10))) else '' end) 'Fall 2016',
+					max(case when cols = 'Spring 2016' then IIF(courseGrade = 0 OR courseGrade IS NULL, '', CAST(courseGrade AS VARCHAR(10))) else '' end) 'Spring 2016',
+					max(case when cols = 'Fall 2017' then IIF(courseGrade = 0 OR courseGrade IS NULL, '', CAST(courseGrade AS VARCHAR(10))) else '' end) 'Fall 2017',
+					max(case when cols = 'Spring 2017' then IIF(courseGrade = 0 OR courseGrade IS NULL, '', CAST(courseGrade AS VARCHAR(10))) else '' end) 'Spring 2017',
+					max(case when cols = 'Fall 2018' then IIF(courseGrade = 0 OR courseGrade IS NULL, '', CAST(courseGrade AS VARCHAR(10))) else '' end) 'Fall 2018',
+					max(case when cols = 'Spring 2018' then IIF(courseGrade = 0 OR courseGrade IS NULL, '', CAST(courseGrade AS VARCHAR(10))) else '' end) 'Spring 2018'
 					from (select c1.courseID, courseGrade, CONCAT(courseSemester, ' ',CONVERT(nvarchar, courseYear)) as cols
 						from (select distinct courseSemester, tblCourseGrade.courseID, courseGrade from tblCourses
 								join tblCourseGrade on tblCourseGrade.courseID = tblCourses.courseID
