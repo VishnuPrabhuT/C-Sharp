@@ -24,14 +24,15 @@ namespace WebTesting
         static string[] departmentData;
         static string[] priceGroupData;
         static string[] ageRestrictionData;
+        static string[] categoryData;
         static string[] singleItemData;
         static string bulkUploadFilePath;
         static string[] singleItemUpdateData;
         static string[] searchItemData;
         static string[] deptbulkUpdateData;
-        static string[] bulkUpdateSearchData;
         static string[] taxBulkUpdateSearchData;
         static string[] nameBulkUpdateSearchData;
+        static string[] promotionsData;
 
         string currUserName = "";
         string currPassword = "";
@@ -115,22 +116,35 @@ namespace WebTesting
                 "Premium Cigs,Non-Tax,Taxable",
             };
 
+            //Category
+            categoryData = new string[]
+            {
+                "Beer,Taxable,5",
+                "Soda,Taxable,5",
+            };
+
             //Item Name
             nameBulkUpdateSearchData = new string[]
             {
                 "COKE ALUMINUM",
                 "COKE ALU",
-                "KE ALU",                
+                "KE ALU",
                 "MINUM"
             };
 
-
+            //Search Scan Codes
             searchItemData = new string[]
             {
                 "02820000954",
                 "028200009548",
                 "289542",
                 "2895428"
+            };
+
+            //Promotions
+            promotionsData = new string[]
+            {
+                "Free,5,Mix Match,Coke Aluminum,"+DateTime.Today.Date.ToString().Replace("/","-")+","+DateTime.Today.AddDays(7).Date.ToString().Replace("/","-")+",4"
             };
 
         }
@@ -234,7 +248,7 @@ namespace WebTesting
                 driver.FindElement(By.CssSelector("#RegisterKeyAddUpdate_Form_txtDeptName")).SendKeys(departmentData[i].Split(',')[1]);
                 driver.FindElement(By.XPath("//select[@id='RegisterKeyAddUpdate_Form_txtTaxType']/option[text() = '" + departmentData[i].Split(',')[2] + "']")).Click();
                 //driver.FindElement(By.CssSelector("#RegisterKeyAddUpdate_Form_txtTaxType")).FindElement(By.XPath("//option[@value='" + departmentData[i].Split(',')[3] + "']")).Click();
-                Thread.Sleep(1000);
+                Thread.Sleep(2000);
                 driver.FindElement(By.CssSelector("#ofmodal-submit-btn")).Click();
             }
 
@@ -289,7 +303,7 @@ namespace WebTesting
                 Thread.Sleep(5000);
                 ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].click()", driver.FindElement(By.CssSelector("#frmPOSItemListOpForm_enetTable_gridHeader #EWF-Grid-AddNew")));
                 //driver.FindElement(By.CssSelector("#frmPOSItemListOpForm_enetTable_gridHeader #EWF-Grid-AddNew")).Click();
-
+                Thread.Sleep(1000);
                 driver.FindElement(By.XPath("//input[@id='POSItemAddNew_Form_txtPOSCode']")).SendKeys(singleItemData[i].Split(',')[0]);
                 Thread.Sleep(1000);
                 driver.FindElement(By.XPath("//button[@id='cmdLookup']")).Click();
@@ -325,11 +339,27 @@ namespace WebTesting
             driver.FindElement(By.CssSelector(".btn.btn-sm.btn-default.ENETOpFilter.autofocus.EWF-btnLoad.OF-full-wide-mob.ewf-focus-onkeydown")).Click();
             string actualNumber = driver.FindElement(By.XPath("//small[@class='text-muted inline m-t-sm m-b-sm']")).Text;
             //Assert.Contains("4325", actualNumber.Split(' '));
+
+            //Setup Category
+            ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].click()", driver.FindElement(By.XPath("//a[@id='EWF-Menu-Link-1322']")));
+            ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].click()", driver.FindElement(By.XPath("//a[@id='EWF-Menu-Link-1726']")));
+            Thread.Sleep(1000);
+            for(int i = 0; i < categoryData.Length; i++)
+            {
+                ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].click()", driver.FindElement(By.XPath("//div[@class='EnetUI-FloatRight']//a[1]")));
+                //driver.FindElement(By.XPath("//div[@class='EnetUI-FloatRight']//a[1]")).Click();
+                Thread.Sleep(1000);
+                driver.FindElement(By.XPath("//input[@id='ManageStoreCategoriesAddUpdate_Form_txtCategoryName']")).SendKeys(categoryData[i].Split(',')[0]);
+                driver.FindElement(By.XPath("//select[@id='ManageStoreCategoriesAddUpdate_Form_txtIsTaxable']/option[text() = '" + categoryData[i].Split(',')[1] + "']")).Click();
+                driver.FindElement(By.XPath("//input[@id='ManageStoreCategoriesAddUpdate_Form_txtMarkup']")).SendKeys(categoryData[i].Split(',')[2]);
+                driver.FindElement(By.XPath("//button[@id='ofmodal-submit-btn']")).Click();
+            }
         }
 
         [Test]
         public void C_PriceBookCheck()
         {
+            //Login
             driver.Navigate().GoToUrl("http://localhost/EmagineNETCOSM/login.aspx");
             driver.FindElement(By.Id("EWFLogin_Form_txtUserName")).SendKeys(currUserName);
             driver.FindElement(By.Id("EWFLogin_Form_txtPassword")).SendKeys(currPassword);
@@ -350,7 +380,7 @@ namespace WebTesting
                 Thread.Sleep(1000);
                 driver.FindElement(By.CssSelector(".btn.btn-sm.btn-default.ENETOpFilter.autofocus.EWF-btnLoad.OF-full-wide-mob.ewf-focus-onkeydown")).Click();
                 Thread.Sleep(2000);
-                
+
                 //Result count
                 int resultCount = Convert.ToInt32(driver.FindElement(By.XPath("//small[@class='text-muted inline m-t-sm m-b-sm']")).Text.Replace(" Matches found", ""));
                 Assert.That(resultCount > 0);
@@ -364,7 +394,7 @@ namespace WebTesting
                 if (i > 0)
                 {
                     Thread.Sleep(5000);
-                    driver.FindElement(By.CssSelector("#frmPOSItemListOpForm_enetTable_gridHeader #EWF-Grid-AddNew")).Click();
+                    ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].click()", driver.FindElement(By.CssSelector("#frmPOSItemListOpForm_enetTable_gridHeader #EWF-Grid-AddNew")));
                 }
                 else
                 {
@@ -438,7 +468,7 @@ namespace WebTesting
                 Assert.That(resultCount > 0);
 
                 driver.FindElement(By.XPath("//select[@id='EWF-txtFillParent-txtTaxTypeID_ID']/option[text() = '" + taxBulkUpdateSearchData[i].Split(',')[2] + "']")).Click();
-                driver.FindElement(By.Id("EWF-txtFillParent-txtTaxTypeID_Apply")).Click();
+                ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].click()", driver.FindElement(By.Id("EWF-txtFillParent-txtTaxTypeID_Apply")));
                 Thread.Sleep(2000);
                 driver.FindElement(By.Id("btnPriceChangeNowTop")).Click();
             }
@@ -457,10 +487,60 @@ namespace WebTesting
                 int resultCount = Convert.ToInt32(driver.FindElement(By.XPath("//small[@class='text-muted inline m-t-sm m-b-sm']")).Text.Replace(" Matches found", ""));
                 Assert.That(resultCount > 0);
             }
+        }
 
+        [Test]
+        public void D_Promotions()
+        {
+            //Login
+            driver.Navigate().GoToUrl("http://localhost/EmagineNETCOSM/login.aspx");
+            driver.FindElement(By.Id("EWFLogin_Form_txtUserName")).SendKeys(currUserName);
+            driver.FindElement(By.Id("EWFLogin_Form_txtPassword")).SendKeys(currPassword);
+            driver.FindElement(By.CssSelector(".btn.btn-lg.btn-primary.btn-block")).Click();
+            driver.FindElement(By.Id("ofmodal-cancel-btn")).Click();
+            driver.Navigate().GoToUrl("http://localhost/EmagineNETCOSM/Content/Tasks/TaskDashboard.aspx");
+            driver.FindElement(By.XPath("//li[@id='EWF-Menu-LI-2029']")).Click();
 
+            driver.FindElement(By.XPath("//a[@id='EWF-Menu-Link-2032']")).Click();
+            driver.FindElement(By.XPath("//a[contains(text(),'Tax')]")).Click();
+
+            driver.FindElement(By.XPath("//a[@id='EWF-Menu-Link-1690']")).Click();
+            ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].click()", driver.FindElement(By.XPath("//a[@id='EWF-Menu-Link-1612']")));
+            //driver.FindElement(By.XPath("//a[@id='EWF-Menu-Link-1612']")).Click();
+            Thread.Sleep(1000);
+            driver.FindElement(By.XPath("//button[@class='btn btn-primary EWF-EmptyGrid-Addnew']")).Click();
+            Thread.Sleep(1000);
+            for (int i = 0; i < promotionsData.Length; i++)
+            {
+                driver.FindElement(By.XPath("//div[@class='promo-field']//input[@type='text']")).SendKeys(promotionsData[i].Split(',')[0]);
+                driver.FindElement(By.XPath("//input[@placeholder='$0']")).SendKeys(promotionsData[i].Split(',')[1]);
+                driver.FindElement(By.XPath("//option[contains(text(),'" + promotionsData[i].Split(',')[2] + "')]")).Click();
+                driver.FindElement(By.XPath("//div[@id='ofmodal-footer']//div[2]")).Click();
+                Thread.Sleep(2000);
+                driver.FindElement(By.XPath("//div[@class='promo-form-row']//input[@type='text']")).SendKeys(promotionsData[i].Split(',')[0]);
+                driver.FindElement(By.XPath("//input[@id='POSPromoItemListCreation_Form_txtSearchScanCodeName']")).SendKeys(promotionsData[i].Split(',')[3]);
+                driver.FindElement(By.XPath("//button[contains(text(),'Search')]")).Click();
+                Thread.Sleep(1000);
+                ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].click()", driver.FindElement(By.XPath("//div[@id='ofmodal-footer']//div[2]")));
+                //driver.FindElement(By.XPath("//div[@id='ofmodal-footer']//div[2]")).Click();
+                driver.FindElement(By.XPath("//input[@id='promoStartDate']")).SendKeys(promotionsData[i].Split(',')[4]);
+                driver.FindElement(By.XPath("//input[@id='promoEndDate']")).SendKeys(promotionsData[i].Split(',')[5]);
+                driver.FindElement(By.XPath("//section[@class='promo-screen ng-scope']//div[3]//div[1]//input[1]")).SendKeys(promotionsData[i].Split(',')[6]);
+                driver.FindElement(By.XPath("//div[@id='ofmodal-content']//div[3]//div[3]")).Click();
+                Thread.Sleep(2000);
+
+                //Result Count
+                int resultCount = Convert.ToInt32(driver.FindElement(By.XPath("//small[@class='text-muted inline m-t-sm m-b-sm']")).Text.Replace(" Matches found", ""));
+                Assert.That(resultCount > 0);
+            }
+        }
+
+        [Test]
+        public void E_Purchasing()
+        {
 
         }
+
         [TearDown]
         public void CleanUp()
         {
