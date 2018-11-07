@@ -1,11 +1,16 @@
-@media (max-width: 767px) {
-  /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
-  body {
-    padding-top: 50px;
-  }
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
-.container {
-  display: grid;
-  grid-gap: 5px;
+@media (min-width: 1200px) {
+  body {
+    justify-items: center;
+    width: 1fr;
+    padding-top: 0px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: linear-gradient(-45deg, #24c6dc 0%, #514a9d 100%);
+  }
 }
