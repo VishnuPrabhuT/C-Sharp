@@ -45,7 +45,7 @@ namespace ToDoList.Controllers
             item.IsCompleted = !(item.IsCompleted);
             _cxt.Notes.Update(item);
             _cxt.SaveChanges();
-            return Ok();
+            return Ok();  
         }
     }
 }

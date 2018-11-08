@@ -31,7 +31,7 @@ export class Note extends Component<any, INote> {
 
     taskComplete(e: any) {
         //console.log(e, this.state, this.props);
-        var node = document.querySelector(".noteButton");
+        //var node = document.querySelector(".noteButton");
 
         if (this.state.isCompleted) {
             e.target.style.color = '#02BA85';
