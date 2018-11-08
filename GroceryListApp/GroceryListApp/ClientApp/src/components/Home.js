@@ -7,8 +7,7 @@ export class Home extends Component {
     super(props);
     this.state = {
       headers: [],
-      data: null,
-      isLoading: false
+      data: null
     };
 
     this.state.headers = [
@@ -49,11 +48,9 @@ export class Home extends Component {
   };
 
   componentDidMount() {
-    isLoading = true;
-
     fetch("api/grocerylist")
       .then(response => response.json())
-      .then(data => this.setState({ data, isLoading: false }));
+      .then(data => this.setState({ data }));
   }
 
   shouldComponentUpdate() {
@@ -71,11 +68,11 @@ export class Home extends Component {
           <h2 style={this.styles.h2}>Grocery List</h2>
         </div>
         <Table
-          isLoading={this.state.isLoading}
           rows={rows}
           headers={this.state.headers}
           page={0}
-          rowsPerPage={10}
+          rowsPerPage={1000}
+          selected={rows.filter(r => r["checked"] === true).length}
         />
       </React.Fragment>
     );

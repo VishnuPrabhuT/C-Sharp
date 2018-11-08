@@ -45,17 +45,6 @@ class TablePaginationActions extends React.Component {
     );
   };
 
-  handleRequestSort = (event, property) => {
-    const orderBy = property;
-    let order = "desc";
-
-    if (this.state.orderBy === property && this.state.order === "desc") {
-      order = "asc";
-    }
-
-    this.setState({ order, orderBy });
-  };
-
   handleSelectAllClick = event => {
     if (event.target.checked) {
       this.setState(state => ({ selected: state.data.map(n => n.id) }));
@@ -168,10 +157,10 @@ class CustomizedTable extends Component {
     this.state = {
       rows: [],
       headers: [],
-      selected: [],
+      selected: 0,
       page: 0,
-      rowsPerPage: 10,
-      isLoading: this.props.isLoading
+      rowsPerPage: 0,
+      selectAll: false
     };
   }
 
@@ -181,6 +170,28 @@ class CustomizedTable extends Component {
 
   handleChangeRowsPerPage = event => {
     this.setState({ rowsPerPage: event.target.value });
+  };
+
+  handleSelectAllClick = event => {
+    let newRows = this.state.rows;
+    newRows.forEach(item => {
+      item.checked = event.target.checked;
+    });
+    this.setState(state => ({
+      rows: newRows,
+      selected: state.rows.filter(x => x.checked === true).length
+    }));
+
+    fetch("api/grocerylist/", {
+      method: "PUT",
+      headers: {
+        Accept: "application/json, text/plain",
+        "Content-type": "application/json"
+      },
+      body: JSON.stringify({
+        isChecked: event.target.checked
+      })
+    }).then(res => console.log(res));
   };
 
   handleClick = (row, quantity) => {
@@ -222,12 +233,17 @@ class CustomizedTable extends Component {
 
   componentWillReceiveProps(p, s) {
     this.setState({
-      rows: p.rows
+      rows: p.rows,
+      selected: p.selected,
+      rowsPerPage: p.rowsPerPage
     });
+    console.log(p);
   }
 
   render() {
     const { classes } = this.props;
+    //console.log(this.state.selected, this.state.rows.length);
+    //console.log(this.state.rows);
     return (
       <Paper className={classes.root}>
         <Table className={classes.table}>
@@ -235,7 +251,17 @@ class CustomizedTable extends Component {
             <TableRow>
               {this.props.headers.map(header => (
                 <CustomTableCell key={header.prop}>
-                  {header.name}
+                  {header.prop === "checked" ? (
+                    <Checkbox
+                      checked={
+                        this.state.selected === this.state.rows.length &&
+                        this.state.selected > 0
+                      }
+                      onClick={this.handleSelectAllClick}
+                    />
+                  ) : (
+                    header.name
+                  )}
                 </CustomTableCell>
               ))}
             </TableRow>
