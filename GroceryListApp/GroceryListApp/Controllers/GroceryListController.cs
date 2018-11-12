@@ -58,6 +58,12 @@ namespace GroceryListApp.Controllers
             {
                 return BadRequest(ModelState);
             }
+            //IEnumerable<GroceryListEntity> items = from row in _context.GroceryList
+            //                                       where row.Checked == !groceryListModel.isChecked
+            //                                       select new GroceryListEntity
+            //                                       {
+            //                                           row.Checked = groceryListModel.isChecked
+            //                                       };
             IEnumerable<GroceryListEntity> items = _context.GroceryList.Where(item => item.Checked == !groceryListModel.isChecked);
             items = items.Select(item => { item.Checked = groceryListModel.isChecked; return item; });
             _context.UpdateRange(items);
