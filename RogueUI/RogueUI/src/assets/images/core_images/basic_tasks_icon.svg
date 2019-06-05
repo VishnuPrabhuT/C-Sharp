@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Basic Tasks</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="3.0166185%" y1="2.51830945%" x2="97.4816906%" y2="96.9833815%" id="linearGradient-1">
+            <stop stop-color="#C6FFDD" offset="0%"></stop>
+            <stop stop-color="#FBD786" offset="51.5376626%"></stop>
+            <stop stop-color="#F7797D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-Structure" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g transform="translate(-116.000000, -89.000000)" id="Basic-Tasks" stroke="url(#linearGradient-1)" stroke-width="0.8">
+            <g transform="translate(117.000000, 90.000000)">
+                <polygon id="Stroke-6202" points="2.98425 5.1372 0 8.12445 4.48425 8.12445"></polygon>
+                <polyline id="Stroke-6203" points="4.48425 8.124375 7.48425 13.749375 15.77325 17.015625 7.48425 5.140125 7.48425 13.749375"></polyline>
+                <path d="M7.48425,5.1405 L2.949,5.1375" id="Stroke-6204"></path>
+                <polyline id="Stroke-6205" points="7.48425 5.1405 12.73425 0 12.73425 12.6615"></polyline>
+                <polyline id="Stroke-6206" points="12.73425 3.999375 17.2575 1.492125 12.8985 12.883125"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

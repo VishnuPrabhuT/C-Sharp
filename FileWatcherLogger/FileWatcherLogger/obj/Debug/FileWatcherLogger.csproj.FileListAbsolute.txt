@@ -1,0 +1,10 @@
+C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\obj\Debug\FileWatcherLogger.csprojAssemblyReference.cache
+C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\obj\Debug\FileWatcherLogger.csproj.GenerateResource.cache
+C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\obj\Debug\FileWatcherLogger.csproj.CoreCompileInputs.cache
+C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Debug\FileWatcherLogger.exe.config
+C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Debug\FileWatcherLogger.exe
+C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Debug\FileWatcherLogger.pdb
+C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\obj\Debug\FileWatcherLogger.exe
+C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\obj\Debug\FileWatcherLogger.pdb
+C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\obj\Debug\FileWatcherLogger.FileEventsLogger.resources
+C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\obj\Debug\FileWatcherLogger.ProjectInstaller.resources

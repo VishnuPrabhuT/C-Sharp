@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Santral";
+  src: url("./assets/fonts/Santral-Medium.woff2") format("woff2"),
+    url("./assets/fonts/Santral-Medium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Santral";
+  src: url("./assets/fonts/Santral-Book.woff2") format("woff2"),
+    url("./assets/fonts/Santral-Book.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Santral";
+  src: url("./assets/fonts/Santral-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Santral-Bold.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@import "reset";
+@import "mixins";
+@import "core";

@@ -1,0 +1,79 @@
+// _core.sass file
+// this file is solely responsible for the page layout (size, positioning of all wrappers)
+// Each wrapper has it's own sass file
+	
+body
+	font-family: "Santral", Helvetica, Arial, sans-serif
+	font-weight: 400
+	color: white
+	font-size: 16px
+	background-repeat: no-repeat
+	background-attachment: fixed
+	background-image: linear-gradient(-45deg, #282354 40%, #206973 100%)
+
+.wrapper
+	@include clearfix
+
+.core
+	// STORES SIDE BAR
+	&_storebar
+		width: 60px
+		background: rgba(0,0,0,0.00)
+		box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.16)
+		background-image: linear-gradient(-90deg, #282354 0%, #206973 100%)
+		position: absolute
+		transition: width 500ms $ease-in-out
+		overflow: hidden
+		bottom: 0
+		top: 0
+
+		&.is-expanded
+			background-image: linear-gradient(-135deg, #4E479B 0%, #4271B1 100%)
+			width: 200px
+			z-index: 9999
+
+	&_main-wrapper
+		@include clearfix
+		height: 100vh
+		margin-left: 60px
+		overflow: hidden
+
+// TOP HEADER
+.core_main-wrapper > .core_top-header
+	@include clearfix
+	padding: 35px 35px 0px 35px
+
+	& > .core_top-header-store
+		float: left
+		color: white
+		font-size: 20px
+		font-weight: 400
+	
+	& > .core_top-header-user-options
+		color: white
+		font-size: 22px
+		font-weight: 400
+		text-align: right
+
+// SIDE BAR NAV
+.core_main-wrapper > .core_side-nav
+	float: left
+	width: 180px
+	height: 100vh
+	padding: 35px 12px 35px 12px
+	text-align: center
+
+// TOP BAR NAV
+.core_main-wrapper > .core_top-nav
+	// overflow: hidden
+	padding: 35px 12px 12px 12px
+
+// MODULE WRAPPER
+.core_main-wrapper > .core_module-wrapper
+	// overflow: hidden
+	height: 100vh
+	margin: 10px
+	padding-left: 10px
+
+
+

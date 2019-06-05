@@ -50,7 +50,10 @@ export class Home extends Component {
   componentDidMount() {
     fetch("api/grocerylist")
       .then(response => response.json())
-      .then(data => this.setState({ data }));
+      .then(data => {
+        console.log(data);
+        this.setState({ data });
+      });
   }
 
   shouldComponentUpdate() {
@@ -71,7 +74,7 @@ export class Home extends Component {
           rows={rows}
           headers={this.state.headers}
           page={0}
-          rowsPerPage={1000}
+          rowsPerPage={10}
           selected={rows.filter(r => r["checked"] === true).length}
         />
       </React.Fragment>

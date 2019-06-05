@@ -96,6 +96,7 @@ namespace GroceryListApp.Controllers
                 return BadRequest();
             }
             GroceryListEntity item = _context.GroceryList.Find(id);
+            
             item.Checked = groceryListModel.isChecked;
             item.Quantity = groceryListModel.quantity;
             _context.Update(item);

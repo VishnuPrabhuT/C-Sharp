@@ -1,0 +1,78 @@
+// _core.sass file
+// this file is solely responsible for the page layout (size, positioning of all wrappers)
+// Each wrapper has it's own sass file
+	
+body
+	font-family: "Santral", Helvetica, Arial, sans-serif
+	font-weight: 400
+	color: white
+	font-size: 16px
+	background-repeat: no-repeat
+	background-attachment: fixed
+	background-image: linear-gradient(-45deg, #24C6DC 0%, #514A9D 100%)
+
+	&:nth-of-type(1) .core_main-wrapper
+		
+		&::-webkit-scrollbar
+			width: 10px
+
+		&::-webkit-scrollbar-track
+			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3)
+			background-color: #F5F5F5
+			border-radius: 10px
+
+		&::-webkit-scrollbar-thumb 
+			background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, #6f1313), color-stop(0.72, #ca4444), color-stop(0.86, #ec6464))
+			box-shadow: inset 0 0 1px 1px #5C6670
+			border-radius: 10px
+
+.wrapper
+	@include clearfix
+
+.core
+	&_main-wrapper
+		@include clearfix
+		height: 100vh
+		// height: max-content
+		margin-left: 60px
+		overflow-y: scroll
+
+// TOP HEADER
+.core_main-wrapper > .core_top-header
+	@include clearfix
+	padding: 35px 35px 0px 35px
+
+	& > .core_top-header-store
+		float: left
+		color: white
+		font-size: 20px
+		font-weight: 400
+	
+	& > .core_top-header-user-options
+		color: white
+		font-size: 22px
+		font-weight: 400
+		text-align: right
+
+// SIDE BAR NAV
+.core_main-wrapper > .core_side-nav
+	float: left
+	width: 180px
+	height: 100vh
+	padding: 35px 12px 35px 12px
+	text-align: center
+
+// TOP BAR NAV
+.core_main-wrapper > .core_top-nav
+	// overflow: hidden
+	padding: 35px 12px 12px 12px
+
+// MODULE WRAPPER
+.core_main-wrapper > .core_module-wrapper
+	// overflow: hidden
+	// height: fit-content
+	margin: 10px
+	padding-left: 10px
+
+
+

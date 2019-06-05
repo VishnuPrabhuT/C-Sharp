@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Gas</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-Structure" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g transform="translate(-117.000000, -341.000000)" id="Gas" stroke="#FFFFFF" stroke-width="0.8">
+            <g transform="translate(117.000000, 341.000000)">
+                <path d="M14.5387273,9.09090909 C14.5387273,11.6009091 12.5041818,13.6363636 9.99327273,13.6363636 C7.48236364,13.6363636 5.44781818,11.6009091 5.44781818,9.09090909 C5.44781818,6.58090909 9.99327273,0 9.99327273,0 C9.99327273,0 14.5387273,6.58090909 14.5387273,9.09090909 Z" id="Stroke-2519"></path>
+                <path d="M9.99327273,10.9090909 C8.82145455,10.9090909 7.87236364,9.95909091 7.87236364,8.78818182" id="Stroke-2520" stroke-linecap="round"></path>
+                <path d="M16.3462727,14.9849091 C14.769,16.1112727 12.5062727,16.8185455 9.99354545,16.8185455 C7.46627273,16.8185455 5.19263636,16.104 3.61354545,14.9658182" id="Stroke-2521" stroke-linecap="round"></path>
+                <path d="M19.9390909,16.4186364 C17.5963636,18.3259091 14.0109091,19.545 9.99363636,19.545 C5.94818182,19.545 2.34272727,18.3086364 0,16.3804545" id="Stroke-2522" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

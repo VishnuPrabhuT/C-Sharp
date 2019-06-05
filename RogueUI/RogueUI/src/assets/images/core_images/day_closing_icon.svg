@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="22px" viewBox="0 0 21 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Day Closing</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-Structure" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(-116.000000, -173.000000)" id="Day-Closing" stroke="#FFFFFF" stroke-width="0.8">
+            <g transform="translate(117.000000, 174.000000)">
+                <polygon id="Stroke-6806" points="5.61389545 14.6685182 9.49421364 18.1230636 13.3866227 14.6685182 11.2275318 14.6685182 11.2275318 10.3503364 7.77298636 10.3503364 7.77298636 14.6685182"></polygon>
+                <path d="M4.24926364,12.5026909 C3.73971818,11.6174636 3.44867273,10.5897364 3.44867273,9.49464545 C3.44867273,6.15582727 6.15530909,3.44919091 9.49412727,3.44919091 C12.8329455,3.44919091 15.5395818,6.15582727 15.5395818,9.49464545 C15.5395818,10.5897364 15.2485364,11.6166 14.7389909,12.5018273" id="Stroke-6807"></path>
+                <path d="M9.49015455,1.7005 L9.49015455,0" id="Stroke-6808"></path>
+                <path d="M15.0025727,3.98015455 L16.2047545,2.77797273" id="Stroke-6809"></path>
+                <path d="M17.2881864,9.49006818 L18.9886864,9.49006818" id="Stroke-6810"></path>
+                <path d="M15.0084455,15.0024864 L16.2114909,16.2055318" id="Stroke-6811"></path>
+                <path d="M3.98611364,15.0084455 L2.78393182,16.2114909" id="Stroke-6812"></path>
+                <path d="M1.7005,9.49853182 L0,9.49853182" id="Stroke-6813"></path>
+                <path d="M3.98024091,3.98611364 L2.77805909,2.78306818" id="Stroke-6814"></path>
+                <path d="M0.000259090909,19.8503364 L18.9898955,19.8503364" id="Stroke-6815"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,1172 @@
+﻿Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Creating EventLog source FileWatcherLogger in log Application...
+Rolling back assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Restoring event log to previous state for source FileWatcherLogger.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Warning: The source FileWatcherLogger is not registered on the local machine.
+Service FileWatcherLogger is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Creating EventLog source FileWatcherLogger in log Application...
+Rolling back assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Restoring event log to previous state for source FileWatcherLogger.
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Warning: The source FileWatcherLogger is not registered on the local machine.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Creating EventLog source FileWatcherLogger in log Application...
+Rolling back assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Restoring event log to previous state for source FileWatcherLogger.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Creating EventLog source FileWatcherLogger in log Application...
+Rolling back assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Restoring event log to previous state for source FileWatcherLogger.
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Creating EventLog source FileWatcherLogger in log Application...
+Rolling back assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Restoring event log to previous state for source FileWatcherLogger.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Warning: The source FileWatcherLogger is not registered on the local machine.
+Service FileWatcherLogger is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Creating EventLog source FileWatcherLogger in log Application...
+Rolling back assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Restoring event log to previous state for source FileWatcherLogger.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Warning: The source FileWatcherLogger is not registered on the local machine.
+Service FileWatcherLogger is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Creating EventLog source FileWatcherLogger in log Application...
+Rolling back assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Restoring event log to previous state for source FileWatcherLogger.
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Warning: The source FileWatcherLogger is not registered on the local machine.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Creating EventLog source FileWatcherLogger in log Application...
+Rolling back assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Restoring event log to previous state for source FileWatcherLogger.
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Warning: The source FileWatcherLogger is not registered on the local machine.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Warning: The source FileWatcherLogger is not registered on the local machine.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: Requested registry access is not allowed.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Removing EventLog source FileWatcherLogger.
+Service FileWatcherLogger is being removed from the system...
+Service FileWatcherLogger was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Service FileWatcherLogger has been successfully installed.
+Creating EventLog source FileWatcherLogger in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Installing service FileWatcherLogger...
+Creating EventLog source FileWatcherLogger in log Application...
+Rolling back assembly 'C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\FileWatcherLogger\FileWatcherLogger\bin\Release\FileWatcherLogger.exe
+Restoring event log to previous state for source FileWatcherLogger.

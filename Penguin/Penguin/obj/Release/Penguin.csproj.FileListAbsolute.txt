@@ -1,0 +1,10 @@
+C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe.config
+C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.pdb
+C:\Users\vishnu\source\repos\Penguin\Penguin\obj\Release\Penguin.ProjectInstaller.resources
+C:\Users\vishnu\source\repos\Penguin\Penguin\obj\Release\Penguin.csproj.GenerateResource.cache
+C:\Users\vishnu\source\repos\Penguin\Penguin\obj\Release\Penguin.csproj.CoreCompileInputs.cache
+C:\Users\vishnu\source\repos\Penguin\Penguin\obj\Release\Penguin.exe
+C:\Users\vishnu\source\repos\Penguin\Penguin\obj\Release\Penguin.pdb
+C:\Users\vishnu\source\repos\Penguin\Penguin\obj\Release\Penguin.PenguinService.resources
+C:\Users\vishnu\source\repos\Penguin\Penguin\obj\Release\Penguin.csprojAssemblyReference.cache

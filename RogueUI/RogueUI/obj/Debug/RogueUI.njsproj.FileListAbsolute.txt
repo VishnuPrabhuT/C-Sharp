@@ -1,0 +1,3 @@
+C:\Users\vishnu\source\repos\RogueUI\RogueUI\obj\Debug\RogueUI.njsprojAssemblyReference.cache
+C:\Users\vishnu\source\repos\RogueUI\RogueUI\obj\Debug\RogueUI.njsproj.CoreCompileInputs.cache
+C:\Users\vishnu\source\repos\RogueUI\RogueUI\bin\Microsoft.NodejsTools.WebRole.dll

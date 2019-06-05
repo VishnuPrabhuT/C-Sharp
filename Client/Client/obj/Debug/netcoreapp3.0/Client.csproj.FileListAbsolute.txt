@@ -1,0 +1,12 @@
+C:\Users\vishnu\source\repos\Client\Client\obj\Debug\netcoreapp3.0\Client.csproj.CoreCompileInputs.cache
+C:\Users\vishnu\source\repos\Client\Client\obj\Debug\netcoreapp3.0\Client.AssemblyInfoInputs.cache
+C:\Users\vishnu\source\repos\Client\Client\obj\Debug\netcoreapp3.0\Client.AssemblyInfo.cs
+C:\Users\vishnu\source\repos\Client\Client\obj\Debug\netcoreapp3.0\Client.dll
+C:\Users\vishnu\source\repos\Client\Client\obj\Debug\netcoreapp3.0\Client.pdb
+C:\Users\vishnu\source\repos\Client\Client\bin\Debug\netcoreapp3.0\Client.exe
+C:\Users\vishnu\source\repos\Client\Client\bin\Debug\netcoreapp3.0\Client.deps.json
+C:\Users\vishnu\source\repos\Client\Client\bin\Debug\netcoreapp3.0\Client.runtimeconfig.json
+C:\Users\vishnu\source\repos\Client\Client\bin\Debug\netcoreapp3.0\Client.runtimeconfig.dev.json
+C:\Users\vishnu\source\repos\Client\Client\bin\Debug\netcoreapp3.0\Client.dll
+C:\Users\vishnu\source\repos\Client\Client\bin\Debug\netcoreapp3.0\Client.pdb
+C:\Users\vishnu\source\repos\Client\Client\obj\Debug\netcoreapp3.0\Client.csprojAssemblyReference.cache

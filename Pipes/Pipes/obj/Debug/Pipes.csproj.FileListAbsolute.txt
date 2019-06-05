@@ -1,0 +1,10 @@
+C:\Users\vishnu\source\repos\Pipes\Pipes\obj\Debug\Pipes.csprojAssemblyReference.cache
+C:\Users\vishnu\source\repos\Pipes\Pipes\obj\Debug\Pipes.Properties.Resources.resources
+C:\Users\vishnu\source\repos\Pipes\Pipes\obj\Debug\Pipes.csproj.GenerateResource.cache
+C:\Users\vishnu\source\repos\Pipes\Pipes\obj\Debug\Pipes.csproj.CoreCompileInputs.cache
+C:\Users\vishnu\source\repos\Pipes\Pipes\bin\Debug\Pipes.exe.config
+C:\Users\vishnu\source\repos\Pipes\Pipes\bin\Debug\Pipes.exe
+C:\Users\vishnu\source\repos\Pipes\Pipes\bin\Debug\Pipes.pdb
+C:\Users\vishnu\source\repos\Pipes\Pipes\obj\Debug\Pipes.exe
+C:\Users\vishnu\source\repos\Pipes\Pipes\obj\Debug\Pipes.pdb
+C:\Users\vishnu\source\repos\Pipes\Pipes\obj\Debug\Pipes.Form1.resources

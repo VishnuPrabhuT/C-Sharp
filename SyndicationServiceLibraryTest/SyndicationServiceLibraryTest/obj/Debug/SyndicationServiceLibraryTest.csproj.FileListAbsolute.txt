@@ -1,0 +1,7 @@
+C:\Users\vishnu\source\repos\SyndicationServiceLibraryTest\SyndicationServiceLibraryTest\bin\Debug\SyndicationServiceLibraryTest.dll.config
+C:\Users\vishnu\source\repos\SyndicationServiceLibraryTest\SyndicationServiceLibraryTest\bin\Debug\SyndicationServiceLibraryTest.dll
+C:\Users\vishnu\source\repos\SyndicationServiceLibraryTest\SyndicationServiceLibraryTest\bin\Debug\SyndicationServiceLibraryTest.pdb
+C:\Users\vishnu\source\repos\SyndicationServiceLibraryTest\SyndicationServiceLibraryTest\obj\Debug\SyndicationServiceLibraryTest.csprojAssemblyReference.cache
+C:\Users\vishnu\source\repos\SyndicationServiceLibraryTest\SyndicationServiceLibraryTest\obj\Debug\SyndicationServiceLibraryTest.csproj.CoreCompileInputs.cache
+C:\Users\vishnu\source\repos\SyndicationServiceLibraryTest\SyndicationServiceLibraryTest\obj\Debug\SyndicationServiceLibraryTest.dll
+C:\Users\vishnu\source\repos\SyndicationServiceLibraryTest\SyndicationServiceLibraryTest\obj\Debug\SyndicationServiceLibraryTest.pdb

@@ -237,7 +237,7 @@ class CustomizedTable extends Component {
       selected: p.selected,
       rowsPerPage: p.rowsPerPage
     });
-    console.log(p);
+    //console.log(p);
   }
 
   render() {
