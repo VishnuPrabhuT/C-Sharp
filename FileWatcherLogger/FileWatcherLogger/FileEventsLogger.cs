@@ -18,7 +18,6 @@ namespace FileWatcherLogger
     public partial class FileEventsLogger : ServiceBase
     {
         private int eventId = 1;
-        private string path = string.Empty;        
         [PermissionSet(SecurityAction.Demand, Name = "FullTrust")]
         public FileEventsLogger()
         {
@@ -32,27 +31,30 @@ namespace FileWatcherLogger
 
         private void ResetFileWatcher()
         {
-            watcher = new FileSystemWatcher();            
-            while (!watcher.EnableRaisingEvents)
+            watcher = new FileSystemWatcher();
+            do
             {
                 try
                 {
-                    SetUpFileWatcher(path);
-                    eventLogger.WriteEntry($"Back Online!!! InternalBufferSize - {watcher.InternalBufferSize} EnableRaisingEvents - {watcher.EnableRaisingEvents} Path - {watcher.Path}", EventLogEntryType.Information, eventId++);
+                    watcher.EnableRaisingEvents = false;
+                    eventLogger.WriteEntry($"Before SetUpFileWatcher! InternalBufferSize - {watcher.InternalBufferSize} EnableRaisingEvents - {watcher.EnableRaisingEvents} Path - {watcher.Path}", EventLogEntryType.Warning, eventId++);
+                    SetUpFileWatcher();
+                    eventLogger.WriteEntry($"After SetUpFileWatcher Back Online!!! InternalBufferSize - {watcher.InternalBufferSize} EnableRaisingEvents - {watcher.EnableRaisingEvents} Path-{watcher.Path}", EventLogEntryType.Information, eventId++);
                 }
-                catch
+                catch (Exception e)
                 {
-                    // Sleep for a bit; otherwise, it takes a bit of
-                    // processor time
+                    eventLogger.WriteEntry($"In ResetFileWatcher Catch | Message - {e.Message} StackTrace - {e.StackTrace} {watcher.EnableRaisingEvents} {watcher.Path}", EventLogEntryType.Error, eventId++);
+                    // Sleep for a bit; otherwise, it takes a bit of processor time
                     System.Threading.Thread.Sleep(5000);
+                    watcher.EnableRaisingEvents = false;
                 }
             }
+            while (!watcher.EnableRaisingEvents);
         }
 
-        private void SetUpFileWatcher(string path)
+        private void SetUpFileWatcher()
         {
-            watcher.Path = path?.Length == 0 ? File.ReadAllText(@"C:\Release\Path.txt") : path;
-            path = watcher.Path;
+            watcher.Path = File.ReadAllText(@"C:\Release\Path.txt");
             watcher.InternalBufferSize = 4 * 4096;
             watcher.NotifyFilter = NotifyFilters.LastAccess
                                  | NotifyFilters.LastWrite
@@ -79,17 +81,24 @@ namespace FileWatcherLogger
 
         protected override void OnStart(string[] args)
         {
-            System.Diagnostics.EventLog.DeleteEventSource("FileWatcherLogger");
-            if (!EventLog.SourceExists("FileWatcherLogger"))
+            try
             {
-                EventLog.CreateEventSource(
-                    "FileWatcherLogger", "FileWatcherLog");
-            }
+                System.Diagnostics.EventLog.DeleteEventSource("FileWatcherLogger");
+                if (!EventLog.SourceExists("FileWatcherLogger"))
+                {
+                    EventLog.CreateEventSource(
+                        "FileWatcherLogger", "FileWatcherLog");
+                }
 
-            eventLogger.Source = "FileWatcherLogger";
-            eventLogger.Log = "FileWatcherLog";
-            eventLogger.WriteEntry("In OnStart " + String.Join("-", args));
-            SetUpFileWatcher(args.Length == 0 ? "" : args[0]);
+                eventLogger.Source = "FileWatcherLogger";
+                eventLogger.Log = "FileWatcherLog";
+                eventLogger.WriteEntry("In OnStart " + String.Join("-", args));
+                ResetFileWatcher();
+            }
+            catch(Exception e)
+            {
+                eventLogger.WriteEntry($"Error {e.Message} {e.StackTrace} {@File.ReadAllText(@"C:\Release\Path.txt")}");
+            }
         }
 
         protected override void OnPause()

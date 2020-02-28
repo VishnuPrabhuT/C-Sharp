@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using System.Security.Permissions;
 
@@ -8,8 +9,26 @@ namespace Watcher
     {
         static void Main(string[] args)
         {
-            Run();
-            Console.WriteLine("Process Exit");
+            DateTime dt = DateTime.Today.AddDays(40);
+            Process[] list1 = Process.GetProcessesByName("electron");
+            foreach (Process p in list1)
+            {
+                p.Kill();
+            }
+            Process[] list2 = Process.GetProcessesByName("dotnet");
+            foreach (Process p in list2)
+            {
+                p.Kill();
+            }
+            Process[] list3 = Process.GetProcessesByName("MercuryUI");
+            foreach (Process p in list3)
+            {
+                p.Kill();
+            }
+            //while(Directory.Exists(@"C:\T"))
+            //Console.WriteLine(Directory.Exists(@"C:\T"));
+            //Run();
+            //Console.WriteLine("Process Exit");
         }
 
         [PermissionSet(SecurityAction.Demand, Name = "FullTrust")]
@@ -22,7 +41,7 @@ namespace Watcher
             {
                 // Display the proper way to call the program.
                 Console.WriteLine("Usage: Watcher.exe (directory)");
-                return;
+                return; 
             }
 
             // Create a new FileSystemWatcher and set its properties.

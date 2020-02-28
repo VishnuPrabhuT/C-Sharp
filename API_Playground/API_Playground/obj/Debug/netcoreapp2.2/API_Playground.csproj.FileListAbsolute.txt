@@ -1,0 +1,11 @@
+C:\Users\vishnu\source\repos\API_Playground\API_Playground\obj\Debug\netcoreapp2.2\API_Playground.csprojAssemblyReference.cache
+C:\Users\vishnu\source\repos\API_Playground\API_Playground\obj\Debug\netcoreapp2.2\API_Playground.csproj.CoreCompileInputs.cache
+C:\Users\vishnu\source\repos\API_Playground\API_Playground\obj\Debug\netcoreapp2.2\API_Playground.AssemblyInfoInputs.cache
+C:\Users\vishnu\source\repos\API_Playground\API_Playground\obj\Debug\netcoreapp2.2\API_Playground.AssemblyInfo.cs
+C:\Users\vishnu\source\repos\API_Playground\API_Playground\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\vishnu\source\repos\API_Playground\API_Playground\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\vishnu\source\repos\API_Playground\API_Playground\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\vishnu\source\repos\API_Playground\API_Playground\bin\Debug\netcoreapp2.2\API_Playground.deps.json
+C:\Users\vishnu\source\repos\API_Playground\API_Playground\bin\Debug\netcoreapp2.2\API_Playground.runtimeconfig.json
+C:\Users\vishnu\source\repos\API_Playground\API_Playground\bin\Debug\netcoreapp2.2\API_Playground.runtimeconfig.dev.json
+C:\Users\vishnu\source\repos\API_Playground\API_Playground\bin\Debug\netcoreapp2.2\API_Playground.dll

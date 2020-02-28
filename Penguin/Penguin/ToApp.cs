@@ -14,71 +14,47 @@ namespace Penguin
         // Defines the data protocol for reading and writing strings on our stream
         public class StreamString : IDisposable
         {
-            private Stream ioStream;
+            private MemoryStream memoryStream;
+            private PipeStream ioStream;
             private UnicodeEncoding streamEncoding;
 
-            public StreamString(Stream ioStream)
+            public StreamString(PipeStream ioStream)
             {
                 this.ioStream = ioStream;
+                this.memoryStream = new MemoryStream();
                 streamEncoding = new UnicodeEncoding();
             }
 
             public string ReadString()
             {
-                int len = 0;
-
-                len = ioStream.ReadByte() * 256;
-                len += ioStream.ReadByte();
-                byte[] inBuffer = new byte[len];
-                ioStream.Read(inBuffer, 0, len);
-
-                return streamEncoding.GetString(inBuffer);
+                byte[] inBuffer = new byte[512];
+                do
+                {
+                    int readbytes = ioStream.Read(inBuffer, 0, 512);
+                    memoryStream.Write(inBuffer, 0, readbytes);
+                }
+                while (!ioStream.IsMessageComplete);
+                System.IO.File.AppendAllText($@"C:\Pipes\LenS.txt", $"{ memoryStream.Length.ToString() }\n");
+                return streamEncoding.GetString(memoryStream.ToArray());
             }
 
             public int WriteString(string outString)
             {
                 byte[] outBuffer = streamEncoding.GetBytes(outString);
-                int len = outBuffer.Length;
-                if (len > UInt16.MaxValue)
-                {
-                    len = (int)UInt16.MaxValue;
-                }
-                ioStream.WriteByte((byte)(len / 256));
-                ioStream.WriteByte((byte)(len & 255));
-                ioStream.Write(outBuffer, 0, len);
+                System.IO.File.AppendAllText($@"C:\Pipes\LenS.txt", outBuffer.Length.ToString());
+                ioStream.Write(outBuffer, 0, outBuffer.Length);
                 ioStream.Flush();
-
-                return outBuffer.Length + 2;
+                return outBuffer.Length;
             }
 
             public void Dispose()
             {
-                if(ioStream != null)
+                if (ioStream != null)
                 {
                     ioStream = null;
                 }
             }
-        }
-
-
-        // Contains the method executed in the context of the impersonated user
-        public class ReadFileToStream
-        {
-            private string fn;
-            public StreamString ss;
-
-            public ReadFileToStream(StreamString str, string filename)
-            {
-                fn = filename;
-                ss = str;
-            }
-
-            public void Start()
-            {
-                string contents = File.ReadAllText(fn);
-                ss.WriteString(contents);
-            }
-        }
+        }        
     }
 }
 

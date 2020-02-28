@@ -1,47 +1,50 @@
 ﻿using System;
 using System.IO;
+using System.IO.Pipes;
 using System.Text;
 
 namespace Joker
 {
     // Defines the data protocol for reading and writing strings on our stream
-    public class StreamString
+    public class StreamString : IDisposable
     {
-        private Stream ioStream;
+        private MemoryStream memoryStream;
+        private PipeStream ioStream;
         private UnicodeEncoding streamEncoding;
 
-
-        public StreamString(Stream ioStream)
+        public StreamString(PipeStream ioStream)
         {
             this.ioStream = ioStream;
+            this.ioStream.ReadMode = PipeTransmissionMode.Message;
+            this.memoryStream = new MemoryStream();
             streamEncoding = new UnicodeEncoding();
         }
 
         public string ReadString()
         {
-            int len;
-            len = ioStream.ReadByte() * 256;
-            len += ioStream.ReadByte();
-            byte[] inBuffer = new byte[len];
-            ioStream.Read(inBuffer, 0, len);
-
-            return streamEncoding.GetString(inBuffer);
+            byte[] inBuffer = new byte[512];
+            do
+            {
+                int readbytes = ioStream.Read(inBuffer, 0, 512);
+                memoryStream.Write(inBuffer, 0, readbytes);
+            }
+            while (!ioStream.IsMessageComplete);
+            return streamEncoding.GetString(memoryStream.ToArray());
         }
 
         public int WriteString(string outString)
         {
-            byte[] outBuffer = streamEncoding.GetBytes(outString);
-            int len = outBuffer.Length;
-            if (len > UInt16.MaxValue)
-            {
-                len = (int)UInt16.MaxValue;
-            }
-            ioStream.WriteByte((byte)(len / 256));
-            ioStream.WriteByte((byte)(len & 255));
-            ioStream.Write(outBuffer, 0, len);
+            Span<byte> span = new Span<byte>(streamEncoding.GetBytes(outString));
+            ioStream.Write(span.ToArray());
             ioStream.Flush();
-
-            return outBuffer.Length + 2;
+            return span.Length;
+        }
+        public void Dispose()
+        {
+            if (ioStream != null)
+            {
+                ioStream = null;
+            }
         }
     }
 }

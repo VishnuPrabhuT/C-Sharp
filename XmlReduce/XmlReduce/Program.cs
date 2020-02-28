@@ -14,7 +14,7 @@ namespace XmlReduce
             xml.Load(@"C:\Users\vishnu\Downloads\Sample.xml");
             string xStr = xml.InnerXml.ToString();
             var xDocument = XDocument.Parse(xStr);
-
+            
             var selectedNodes = from nodes in xDocument.Descendants("enetxmldatarow").Descendants("enetxmldata")
                                 select nodes;
             Dictionary<string, string> dict = new Dictionary<string, string>

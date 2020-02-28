@@ -5,6 +5,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Joker
 {
@@ -39,6 +42,7 @@ namespace Joker
             else
             {
                 app.UseExceptionHandler("/Error");
+                //app.UseBrowserLink();
                 //app.UseBrowserLink();
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
@@ -82,10 +86,38 @@ namespace Joker
                 Width = 1152,
                 Height = 864,
                 Show = false,
-                WebPreferences = new WebPreferences { WebSecurity = false }
+                Icon = @"./icon/icon.ico",
+                WebPreferences = new WebPreferences { WebSecurity = true },
+                ThickFrame = false
             };
             var browserWindow = await Electron.WindowManager.CreateWindowAsync(prefs);
-            browserWindow.OnReadyToShow += () => browserWindow.Show();
+            //browserWindow.SetKiosk(true);
+
+            var menu = new MenuItem[] {
+                 new MenuItem
+                    {
+                      Label = "Show",
+                      Click = () => { browserWindow.Show(); }
+                    },
+                 new MenuItem
+                    {
+                      Label = "Exit",
+                      Click = () => { browserWindow.Close(); }
+                    }
+                };
+            browserWindow.OnReadyToShow += () =>
+            {
+                browserWindow.Show();
+                //Electron.Tray.Show("/icon/electron.png", menu);
+                //Electron.Tray.SetToolTip("MercuryUI");
+                //browserWindow.SetClosable(false);
+            };
+            //browserWindow.OnMinimize += () =>
+            //{
+            //    browserWindow.Hide();
+            //    var notification = Electron.Notification;
+            //    notification.Show(new NotificationOptions("MercuryUI", "App is Running!"));
+            //};
             //RegisterIpc.Impl.Register();
         }
     }

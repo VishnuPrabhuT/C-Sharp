@@ -1,0 +1,11 @@
+C:\Users\vishnu\source\repos\FileSystemWatcher\FileSystemWatcher\bin\Release\netcoreapp2.2\FileSystemWatcher.deps.json
+C:\Users\vishnu\source\repos\FileSystemWatcher\FileSystemWatcher\bin\Release\netcoreapp2.2\FileSystemWatcher.runtimeconfig.json
+C:\Users\vishnu\source\repos\FileSystemWatcher\FileSystemWatcher\bin\Release\netcoreapp2.2\FileSystemWatcher.runtimeconfig.dev.json
+C:\Users\vishnu\source\repos\FileSystemWatcher\FileSystemWatcher\bin\Release\netcoreapp2.2\FileSystemWatcher.dll
+C:\Users\vishnu\source\repos\FileSystemWatcher\FileSystemWatcher\bin\Release\netcoreapp2.2\FileSystemWatcher.pdb
+C:\Users\vishnu\source\repos\FileSystemWatcher\FileSystemWatcher\obj\Release\netcoreapp2.2\FileSystemWatcher.csprojAssemblyReference.cache
+C:\Users\vishnu\source\repos\FileSystemWatcher\FileSystemWatcher\obj\Release\netcoreapp2.2\FileSystemWatcher.csproj.CoreCompileInputs.cache
+C:\Users\vishnu\source\repos\FileSystemWatcher\FileSystemWatcher\obj\Release\netcoreapp2.2\FileSystemWatcher.AssemblyInfoInputs.cache
+C:\Users\vishnu\source\repos\FileSystemWatcher\FileSystemWatcher\obj\Release\netcoreapp2.2\FileSystemWatcher.AssemblyInfo.cs
+C:\Users\vishnu\source\repos\FileSystemWatcher\FileSystemWatcher\obj\Release\netcoreapp2.2\FileSystemWatcher.dll
+C:\Users\vishnu\source\repos\FileSystemWatcher\FileSystemWatcher\obj\Release\netcoreapp2.2\FileSystemWatcher.pdb

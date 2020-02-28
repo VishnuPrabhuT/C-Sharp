@@ -1070,3 +1070,1537 @@ Affected parameters are:
    logtoconsole = 
    assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
    logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+Installing service PenguinService...
+Creating EventLog source PenguinService in log Application...
+Rolling back assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+Restoring event log to previous state for source PenguinService.
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+Removing EventLog source PenguinService.
+Warning: The source PenguinService is not registered on the local machine.
+Service PenguinService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Creating EventLog source PenguinService in log Application...
+Rolling back assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Restoring event log to previous state for source PenguinService.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Warning: The source PenguinService is not registered on the local machine.
+Service PenguinService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Warning: The source PenguinService is not registered on the local machine.
+Service PenguinService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Warning: The source PenguinService is not registered on the local machine.
+Service PenguinService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Warning: The source PenguinService is not registered on the local machine.
+Service PenguinService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Warning: The source PenguinService is not registered on the local machine.
+Service PenguinService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Warning: The source PenguinService is not registered on the local machine.
+Service PenguinService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Warning: The source PenguinService is not registered on the local machine.
+Service PenguinService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Uninstalling assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Removing EventLog source PenguinService.
+Service PenguinService is being removed from the system...
+Service PenguinService was successfully removed from the system.
+Installing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
+Installing service PenguinService...
+Service PenguinService has been successfully installed.
+Creating EventLog source PenguinService in log Application...
+Committing assembly 'C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.InstallLog
+   assemblypath = C:\Users\vishnu\source\repos\Penguin\Penguin\bin\Release\Penguin.exe
